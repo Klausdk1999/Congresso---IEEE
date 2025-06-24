@@ -1,0 +1,2338 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  24 JUN 2025 19:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex"
+(c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen141
+\@IEEEtrantmpdimenB=\dimen142
+\@IEEEtrantmpdimenC=\dimen143
+\@IEEEtrantmpcountA=\count196
+\@IEEEtrantmpcountB=\count197
+\@IEEEtrantmpcountC=\count198
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen144
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen145
+\CLASSINFOnormalsizeunitybaselineskip=\dimen146
+\IEEEnormaljot=\dimen147
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+\IEEEquantizedlength=\dimen148
+\IEEEquantizedlengthdiff=\dimen149
+\IEEEquantizedtextheightdiff=\dimen150
+\IEEEilabelindentA=\dimen151
+\IEEEilabelindentB=\dimen152
+\IEEEilabelindent=\dimen153
+\IEEEelabelindent=\dimen154
+\IEEEdlabelindent=\dimen155
+\IEEElabelindent=\dimen156
+\IEEEiednormlabelsep=\dimen157
+\IEEEiedmathlabelsep=\dimen158
+\IEEEiedtopsep=\skip49
+\c@section=\count199
+\c@subsection=\count266
+\c@subsubsection=\count267
+\c@paragraph=\count268
+\c@IEEEsubequation=\count269
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\c@figure=\count270
+\c@table=\count271
+\@IEEEeqnnumcols=\count272
+\@IEEEeqncolcnt=\count273
+\@IEEEsubeqnnumrollback=\count274
+\@IEEEquantizeheightA=\dimen159
+\@IEEEquantizeheightB=\dimen160
+\@IEEEquantizeheightC=\dimen161
+\@IEEEquantizeprevdepth=\dimen162
+\@IEEEquantizemultiple=\count275
+\@IEEEquantizeboxA=\box52
+\@IEEEtmpitemindent=\dimen163
+\IEEEPARstartletwidth=\dimen164
+\c@IEEEbiography=\count276
+\@IEEEtranrubishbin=\box53
+)
+** ATTENTION: Overriding command lockouts (line 2).
+(c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen165
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count282
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip17
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks19
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks20
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks21
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+\c@ALC@unique=\count289
+\c@ALC@line=\count290
+\c@ALC@rem=\count291
+\c@ALC@depth=\count292
+\ALC@tlm=\skip55
+\algorithmicindent=\skip56
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box56
+) (./conference_101719.aux)
+\openout1 = `conference_101719.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+-- Lines per column: 56 (exact).
+(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen176
+\scratchbox=\box57
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen177
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks25
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
+
+
+LaTeX Warning: Citation `javaid_2021_sensors' on page 1 undefined on input line 116.
+
+
+LaTeX Warning: Citation `javaid_2021_sensors' on page 1 undefined on input line 116.
+
+
+LaTeX Warning: Citation `mohindru_2023_development' on page 1 undefined on input line 116.
+
+
+LaTeX Warning: Citation `wu_2023_a' on page 1 undefined on input line 116.
+
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Undefined control sequence.
+l.124 ...nsor, um destes foi testado por \textcite
+                                                  {santana_2024_development}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Missing $ inserted.
+<inserted text> 
+                $
+l.124 ...destes foi testado por \textcite{santana_
+                                                  2024_development}, destaca...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Extra }, or forgotten $.
+l.124 ...o por \textcite{santana_2024_development}
+                                                  , destacando que o mesmo f...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...iferente a parametros como turbidez da á
+                                                  gua, porém o mesmo trabal...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ... parametros como turbidez da água, poré
+                                                  m o mesmo trabalho destaca...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...aca o ponto fraco desta tecnologia que é
+                                                   a sua aplicação em ambi...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 124.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ... desta tecnologia que é a sua aplicaçã
+                                                  o em ambientes hostis, vis...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 124.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ... situaçoes como a cheia do rio, onde há
+                                                   uma grande quantidade de ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...es sensores podem ser comprometidos. Alé
+                                                  m disso sensores de contat...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...ntos de boias, que detecam a altura da á
+                                                  gua em relação a um pont...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 124.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...que detecam a altura da água em relaçã
+                                                  o a um ponto fixo, ou sens...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 124.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ... um ponto fixo, ou sensores de flutuaçã
+                                                  o, que utilizam um flutuad...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...m cabo ou corda para medir a altura da á
+                                                  gua. Esses sensores são s...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...dir a altura da água. Esses sensores sã
+                                                  o simples e eficazes, mas ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 124.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...tores como detritos flutuantes, variaçõ
+                                                  es de temperatura e corros...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.124 ...es, variações de temperatura e corrosã
+                                                  o \cite{mohammadrezamasoud...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: You can't use `\spacefactor' in math mode.
+\cite@adjust ... \@tempa \@zero@skip \spacefactor 
+                                                  1001 \fi \ifnum \spacefact...
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: Improper \spacefactor.
+\cite@adjust ...ctor 1001 \fi \ifnum \spacefactor 
+                                                  >\@m \ \else \hskip \@temp...
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Please use the math alphabet \mathbf instead of the \bfseries command. 
+
+
+LaTeX Warning: Citation `mohammadrezamasoudimoghaddam_2024_a' on page 1 undefined on input line 124.
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Please use the math alphabet \mathbf instead of the \bfseries command. 
+
+
+LaTeX Warning: Citation `santana_2024_development' on page 1 undefined on input line 124.
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Please use the math alphabet \mathbf instead of the \bfseries command. 
+
+
+LaTeX Warning: Citation `paul_2020_a' on page 1 undefined on input line 124.
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Please use the math alphabet \mathbf instead of the \bfseries command. 
+
+
+LaTeX Warning: Citation `yukawa_2025_an' on page 1 undefined on input line 124.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:124: You can't use `\spacefactor' in math mode.
+\@cite ...ivesfalse \citemid {#2}\fi \spacefactor 
+                                                  \@m }\citeright \@restore@...
+l.124 ...4_development,paul_2020_a,yukawa_2025_an}
+                                                   .
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:125: Missing $ inserted.
+<inserted text> 
+                $
+l.125 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmex10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\OT1/ptm/m/n/10 sen-sores de con-tato, como os sen-sores de press[]ao
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 124--125
+\OT1/ptm/m/n/10 ou lin-igr[]aficos, que me-dem a press[]ao ex-er-cida pela
+ []
+
+
+Overfull \hbox (3024.79465pt too wide) in paragraph at lines 124--125
+\OT1/ptm/m/n/10 santana$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 evelopment; destacandoqueomesmofazboasleituras; sendoindiferenteaparametroscomoturbidezda[]gua; por[]momesmotrabalhodestacaopontofracodestatecnologiaque[]asuaaplica[][]oemambienteshostis; vistoqueemsitua[]oescomoacheiadorio; ondeh[]umagrandequantidadedeentulhosefortecorrenteza; essessensorespodemsercomprometidos:Al[]mdissosensoresdecontatoparamonitoramentoemambientesnaturaispodemenvolverconjuntosdeboias; quedetecamaalturada[]guaemrela[][]oaumpontofixo; ousensoresdeflutua[][]o; queutilizamumflutuadorconectadoaumcabooucordaparamediraalturada[]gua:Essessensoress[]osimpleseeficazes; maspodemserafetadosporfatorescomodetritosflutuantes; varia[][]esdetemperaturaecorros[]o
+ []
+
+
+LaTeX Warning: Citation `santana_2024_development' on page 1 undefined on input line 126.
+
+
+LaTeX Warning: Citation `mohindru_2023_development' on page 1 undefined on input line 126.
+
+
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Undefined control sequence.
+l.128 ...osta, como os desenvolvidos por \textcite
+                                                  {ali_2020_saw} e \textcite...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Missing $ inserted.
+<inserted text> 
+                $
+l.128 ... como os desenvolvidos por \textcite{ali_
+                                                  2020_saw} e \textcite{sree...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Extra }, or forgotten $.
+l.128 ...desenvolvidos por \textcite{ali_2020_saw}
+                                                   e \textcite{sreejith_2024...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Undefined control sequence.
+l.128 ...s por \textcite{ali_2020_saw} e \textcite
+                                                  {sreejith_2024_modeling}. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...ecnologia que aparece como promissora sã
+                                                  o os sensores de nível co...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...e como promissora são os sensores de ní
+                                                  vel com fibra óptica, se ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.128 ...e como promissora são os sensores de ní
+                                                  vel com fibra óptica, se ...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...a são os sensores de nível com fibra ó
+                                                  ptica, se baseiam no princ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...es da hidrostatica e utilizam a variaçã
+                                                  o da luz transmitida atrav...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...m a variação da luz transmitida atravé
+                                                  s de uma fibra óptica e u...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ... luz transmitida através de uma fibra ó
+                                                  ptica e um elemento flutua...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...tuante para medir a altura da coluna d'á
+                                                  gua, o principio é demons...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ... altura da coluna d'água, o principio é
+                                                   demonstrado com avanços ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Undefined control sequence.
+l.128 ... com avanços desenvolvidos por \textcite
+                                                  {ramos_2025_high}. Esses s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...cite{ramos_2025_high}. Esses sensores sã
+                                                  o altamente precisos, mas ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 128.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:128: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.128 ...es são altamente precisos, mas ainda sã
+                                                  o complexos de instalar e ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:129: Missing $ inserted.
+<inserted text> 
+                $
+l.129 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:129: Missing } inserted.
+<inserted text> 
+                }
+l.129 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 128--129
+\OT1/ptm/m/n/10 con-tro-la-dos ex-is-tem ainda tec-nolo-gias emer-gentes que
+ []
+
+
+Overfull \hbox (1686.00917pt too wide) in paragraph at lines 128--129
+\OT1/ptm/m/n/10 ali$[]\OT1/cmr/m/n/10 020[]\OML/cmm/m/it/10 awe[]:Outratecnologiaqueaparececomopromissoras[]oossensoresden[]$ 
+ []
+
+
+LaTeX Warning: Citation `mohammadrezamasoudimoghaddam_2024_a' on page 2 undefined on input line 132.
+
+
+LaTeX Warning: Citation `pereira_2022_evaluation' on page 2 undefined on input line 132.
+
+
+LaTeX Warning: Citation `mohammadrezamasoudimoghaddam_2024_a' on page 2 undefined on input line 132.
+
+
+LaTeX Warning: Citation `pereira_2022_evaluation' on page 2 undefined on input line 132.
+
+
+LaTeX Warning: Citation `bresnahan_2023_a' on page 2 undefined on input line 132.
+
+
+LaTeX Warning: Citation `behroozpour_2017_lidar' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `li_2022_a' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `li_2022_a' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `fernandezdiaz_2014_early' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `smart_2009_river' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `behroozpour_2017_lidar' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `li_2022_a' on page 2 undefined on input line 134.
+
+
+LaTeX Warning: Citation `paul_2020_a' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Citation `tamari_2016_flash' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Citation `santana_2024_development' on page 2 undefined on input line 136.
+
+
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Undefined control sequence.
+l.138 ..., como o trabalho realizado por \textcite
+                                                  {jiang_2024_monitoring}, q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Missing $ inserted.
+<inserted text> 
+                $
+l.138 ...o trabalho realizado por \textcite{jiang_
+                                                  2024_monitoring}, que util...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Extra }, or forgotten $.
+l.138 ...zado por \textcite{jiang_2024_monitoring}
+                                                  , que utiliza imagens e ou...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 138.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.138 ... imagens e outros dados obtidos via saté
+                                                  lite para estimar os níve...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 138.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.138 ...obtidos via satélite para estimar os ní
+                                                  veis de uma bacia hidrogr�...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.138 ...obtidos via satélite para estimar os ní
+                                                  veis de uma bacia hidrogr�...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 138.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 138.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.138 ...estimar os níveis de uma bacia hidrográ
+                                                  fica ou os de \textcite{al...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Undefined control sequence.
+l.138 ...ma bacia hidrográfica ou os de \textcite
+                                                  {ali_2024_satellite} que t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 138.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.138 ... \textcite{ali_2024_satellite} que també
+                                                  m usam uma tecnica similar...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 138.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:138: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.138 ...ativas feitas com dados obtidos via saté
+                                                  lite com medicoes feitas e...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:139: Missing $ inserted.
+<inserted text> 
+                $
+l.139 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:139: Missing } inserted.
+<inserted text> 
+                }
+l.139 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1415.62097pt too wide) in paragraph at lines 138--139
+\OT1/ptm/m/n/10 jiang$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 onitoring; queutilizaimagenseoutrosdadosobtidosviasat[]liteparaestimarosn[]$ 
+ []
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Undefined control sequence.
+l.141 O trabalho de \textcite
+                             {ferreira_2023_conception} apresenta um projeto...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Missing $ inserted.
+<inserted text> 
+                $
+l.141 O trabalho de \textcite{ferreira_
+                                       2023_conception} apresenta um projeto...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Extra }, or forgotten $.
+l.141 ...ho de \textcite{ferreira_2023_conception}
+                                                   apresenta um projeto de m...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...ojeto de monitoramento de qualidade da á
+                                                  gua, que utiliza sensores ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...ores de pH, turbidez e condutividade elé
+                                                  trica (EC) e integra técn...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...ondutividade elétrica (EC) e integra té
+                                                  cnicas de fusão de dados ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...étrica (EC) e integra técnicas de fusã
+                                                  o de dados locais e distri...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...as de fusão de dados locais e distribuí
+                                                  dos com recursos de machin...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.141 ...as de fusão de dados locais e distribuí
+                                                  dos com recursos de machin...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 141.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:141: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.141 ...achine learning para melhorar a detecçã
+                                                  o de poluentes em tempo real.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:142: Missing $ inserted.
+<inserted text> 
+                $
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:142: Missing } inserted.
+<inserted text> 
+                }
+l.142 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1032.27147pt too wide) in paragraph at lines 141--142
+[]\OT1/ptm/m/n/10 O tra-balho de ferreira$[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 onceptionapresentaumprojetodemonitoramentodequalidadeda[]gua; queutilizasensoresdepH; turbidezecondutividadeel[]trica\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 EC\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 eintegrat[]cnicasdefus[]odedadoslocaisedistribu[]$ 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 151.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Warning: Citation `yin_2021_smart' on page 2 undefined on input line 151.
+
+
+LaTeX Warning: Citation `viscarrarossel_2016_soil' on page 2 undefined on input line 153.
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 153--154
+[]\OT1/ptm/m/n/10 Historicamente, as recomenda[][]oes de manejo agr[]^^Pcola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 foram de-sen-volvi-das seguindo uma l[]ogica de zonas
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 Verde, quando o foco es-tava ape-nas no au-mento da
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 pro-du-tivi-dade por meio de fer-til-izantes sint[]eticos, sem
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 desse legado ainda per-siste, com pr[]aticas baseadas em
+ []
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Undefined control sequence.
+l.157 ...ir estas áreas de forma remota \textcite
+                                                  {deng_2020_novel}. Dito is...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Missing $ inserted.
+<inserted text> 
+                $
+l.157 ...as áreas de forma remota \textcite{deng_
+                                                  2020_novel}. Dito isso, ou...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Extra }, or forgotten $.
+l.157 ...e forma remota \textcite{deng_2020_novel}
+                                                  . Dito isso, outras altern...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...ra grandes areas tem sido exploradas alé
+                                                  m do mais tradicional LoRa...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Undefined control sequence.
+l.157 ...dicional LoRaWAN, o trabalho de \textcite
+                                                  {deng_2020_novel} apresent...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...onsiste em sensores RFID no solo, um veí
+                                                  culo que se movimenta pela...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.157 ...onsiste em sensores RFID no solo, um veí
+                                                  culo que se movimenta pela...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 157.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...olo, um veículo que se movimenta pela á
+                                                  rea monitorada coletando d...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...mento de dados, capaz de cobrir amplas á
+                                                  reas. Outro trabalho desen...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Undefined control sequence.
+l.157 ...alho desenvolvido por ESSE CARA \textcite
+                                                  {akhileshnagpure_2022_wate...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 157.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...pure_2022_water}, apresenta a utilizaçã
+                                                  o de drones de maneira sim...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 157.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:157: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.157 ...similar a citada, para captar dados em á
+                                                  reas remotas.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:158: Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (2074.68616pt too wide) in paragraph at lines 157--158
+\OT1/ptm/m/n/10 deng$[]\OT1/cmr/m/n/10 020[]\OML/cmm/m/it/10 ovel:Ditoisso; outrasalternativasdecoberturaparagrandesareastemsidoexploradasal[]mdomaistradicionalLoRaWAN; otrabalhode[]apresentaumsistemademonitoramentoqueconsisteemsensoresRFIDnosolo; umve[]$ 
+ []
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Undefined control sequence.
+l.159 O trabalho de \textcite
+                             {boada_2018_batteryless} apresenta o desenvolvi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Missing $ inserted.
+<inserted text> 
+                $
+l.159 O trabalho de \textcite{boada_
+                                    2018_batteryless} apresenta o desenvolvi...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Extra }, or forgotten $.
+l.159 ...alho de \textcite{boada_2018_batteryless}
+                                                   apresenta o desenvolvimen...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...com colheita de energia. O dispositivo é
+                                                   alimentado pelo campo mag...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...spositivo é alimentado pelo campo magné
+                                                  tico gerado pelo leitor NF...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...rado pelo leitor NFC e realiza a mediçã
+                                                  o de temperatura, umidade ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...e temperatura, umidade relativa e conteú
+                                                  do volumétrico de água n...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...ura, umidade relativa e conteúdo volumé
+                                                  trico de água no solo. Um...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...e relativa e conteúdo volumétrico de á
+                                                  gua no solo. Um microcontr...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...p NFC via I2C, armazenando as informaçõ
+                                                  es no formato NDEF para po...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...F para posterior leitura. O estudo també
+                                                  m compara diferentes méto...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 .... O estudo também compara diferentes mé
+                                                  todos de medição de umid...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...m compara diferentes métodos de mediçã
+                                                  o de umidade do solo, sele...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...selecionando a abordagem mais adequada à
+                                                  s limitações energética...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ... a abordagem mais adequada às limitaçõ
+                                                  es energéticas do sistema...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...em mais adequada às limitações energé
+                                                  ticas do sistema. Com um p...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...s energéticas do sistema. Com um princí
+                                                  pio de funcionamento simil...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.159 ...s energéticas do sistema. Com um princí
+                                                  pio de funcionamento simil...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...FID, sensores passivos do tipo SAW també
+                                                  m são apresentados como a...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...sensores passivos do tipo SAW também sã
+                                                  o apresentados como altern...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...rnativas para monitoramento de caracterí
+                                                  sticas do solo, como explo...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.159 ...rnativas para monitoramento de caracterí
+                                                  sticas do solo, como explo...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Undefined control sequence.
+l.159 ...o, como explorado por BLABLABLA \textcite
+                                                  {akhileshnagpure_2022_wate...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ..._water}. Uma forma inovadora de detecçã
+                                                  o de umidade do solo foi e...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Undefined control sequence.
+l.159 ...olo foi explorada por BLABLABLA \textcite
+                                                  {akhileshnagpure_2022_wate...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...hnagpure_2022_water} utilizando fibras ó
+                                                  pticas instaladas em vasta...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...o fibras ópticas instaladas em vastas á
+                                                  reas para verificar a conc...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...tas áreas para verificar a concentraçã
+                                                  o de água no solo.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 159.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:159: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.159 ...eas para verificar a concentração de á
+                                                  gua no solo.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:160: Missing $ inserted.
+<inserted text> 
+                $
+l.160 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:160: Missing } inserted.
+<inserted text> 
+                }
+l.160 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:160: Missing } inserted.
+<inserted text> 
+                }
+l.160 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (4451.00204pt too wide) in paragraph at lines 159--160
+[]\OT1/ptm/m/n/10 O tra-balho de boada$[]\OT1/cmr/m/n/10 018[]\OML/cmm/m/it/10 atterylessapresentaodesenvolvimentodeumsensorinovadordeumidadedosoloqueoperasembateria; utilizandotecnologiaNFCcomcolheitadeenergia:Odispositivo[]alimentadopelocampomagn[]ticogeradopeloleitorNFCerealizaamedi[][]odetemperatura; umidaderelativaeconte[]dovolum[]tricode[]guanosolo:UmmicrocontroladorintegradoprocessaosdadoscoletadoseostransmiteaochipNFCviaI\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 C; armazenandoasinforma[][]esnoformatoNDEFparaposteriorleitura:Oestudotamb[]mcomparadiferentesm[]todosdemedi[][]odeumidadedosolo; selecionandoaabordagemmaisadequada[]slimita[][]esenerg[]ticasdosistema:Comumprinc[]$ 
+ []
+
+
+LaTeX Warning: Citation `yi_2015_a' on page 2 undefined on input line 167.
+
+
+
+[2]
+
+LaTeX Warning: Citation `yi_2015_a' on page 3 undefined on input line 169.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Undefined control sequence.
+l.173 O estudo de \textcite
+                           {devkota_2017_saw} investiga sensores SAW para de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 O estudo de \textcite{devkota_
+                                    2017_saw} investiga sensores SAW para de...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Extra }, or forgotten $.
+l.173 O estudo de \textcite{devkota_2017_saw}
+                                              investiga sensores SAW para de...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 173.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...aw} investiga sensores SAW para detecçã
+                                                  o passiva de gases e vapor...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...etecção passiva de gases e vapores quí
+                                                  micos no ar, baseados na i...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.173 ...etecção passiva de gases e vapores quí
+                                                  micos no ar, baseados na i...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 173.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 173.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...s químicos no ar, baseados na interaçã
+                                                  o dos compostos com a ante...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...tos com a antena, que altera o sinal acú
+                                                  stico recebido. Sensores S...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...co recebido. Sensores SAW mostram-se viá
+                                                  veis para detectar gases i...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 173.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.173 ...m-se viáveis para detectar gases inorgâ
+                                                  nicos como NH$_3$, NO$_2$,...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Missing } inserted.
+<inserted text> 
+                }
+l.173 ...para detectar gases inorgânicos como NH$
+                                                  _3$, NO$_2$, SO$_2$, CO, v...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 ...ara detectar gases inorgânicos como NH$_
+                                                  3$, NO$_2$, SO$_2$, CO, va...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (908.15034pt too wide) in paragraph at lines 173--175
+[]\OT1/ptm/m/n/10 O es-tudo de devkota$[]\OT1/cmr/m/n/10 017[]\OML/cmm/m/it/10 awinvestigasensoresSAWparadetec[][]opassivadegasesevaporesqu[]$$[]$\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 173--175
+\OT1/ptm/m/n/10 ma-te-ri-ais sens[]^^Pveis, sen-sores flex[]^^Pveis e ar-ran-jos multi-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 176--177
+[]\OT1/ptm/m/n/10 FALAR DE OUT-ROS SEN-SORES MAIS CO-MUNS
+ []
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Undefined control sequence.
+l.179 O trabalho de \textcite
+                             {karagulian_2019_review} analisa o desempenho d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179 O trabalho de \textcite{karagulian_
+                                         2019_review} analisa o desempenho d...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Extra }, or forgotten $.
+l.179 ...alho de \textcite{karagulian_2019_review}
+                                                   analisa o desempenho de s...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 179.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.179 ...itoramento de diversos poluentes atmosfé
+                                                  ricos, incluindo monóxido...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 179.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.179 ... poluentes atmosféricos, incluindo monó
+                                                  xido de carbono (CO), óxi...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 179.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.179 ..., incluindo monóxido de carbono (CO), ó
+                                                  xidos de nitrogênio (NO e...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 179.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.179 ...xido de carbono (CO), óxidos de nitrogê
+                                                  nio (NO e NO$_2$), ozônio...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179 ...o (CO), óxidos de nitrogênio (NO e NO$_
+                                                  2$), ozônio (O$_3$) e mat...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (678.14786pt too wide) in paragraph at lines 179--180
+[]\OT1/ptm/m/n/10 O tra-balho de karagulian$[]\OT1/cmr/m/n/10 019[]\OML/cmm/m/it/10 eviewanalisaodesempenhodesensoresdebaixocusto\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 LCS\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 paraomonitoramentodediversospoluentesatmosf[]ricos; incluindomon[]xidodecarbono\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 CO\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; []xidosdenitrog[]nio\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 NOeNO$$[]$\OT1/ptm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 179--180
+\OT1/ptm/m/n/10 m[]etodos de calibra[][]ao, como MLR, ANN, SVR e RF,
+ []
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Undefined control sequence.
+l.181 O trabalho \textcite
+                          {yi_2015_a} apresenta uma revisão dos sistemas de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Missing $ inserted.
+<inserted text> 
+                $
+l.181 O trabalho \textcite{yi_
+                              2015_a} apresenta uma revisão dos sistemas de...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Extra }, or forgotten $.
+l.181 O trabalho \textcite{yi_2015_a}
+                                      apresenta uma revisão dos sistemas de...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...textcite{yi_2015_a} apresenta uma revisã
+                                                  o dos sistemas de monitora...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...os sistemas de monitoramento da poluiçã
+                                                  o do ar baseados em redes ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...s sem fio (WSN), classificando-os em trê
+                                                  s categorias principais: R...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...orias principais: Redes de Sensores Está
+                                                  ticas (SSN), Redes de Sens...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...�ticas (SSN), Redes de Sensores Comunitá
+                                                  rias (CSN) e Redes de Sens...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ... tipos de portadores dos sensores. A aná
+                                                  lise destaca que muitas so...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...s. A análise destaca que muitas soluçõ
+                                                  es atuais já demonstram s...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ... destaca que muitas soluções atuais já
+                                                   demonstram ser viáveis e...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...soluções atuais já demonstram ser viá
+                                                  veis em termos de resoluç...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...tram ser viáveis em termos de resoluçã
+                                                  o espaço-temporal, custo,...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...olução espaço-temporal, custo, eficiê
+                                                  ncia energética, facilida...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...aço-temporal, custo, eficiência energé
+                                                  tica, facilidade de implan...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...a energética, facilidade de implantaçã
+                                                  o, manutenção e acesso p...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ... facilidade de implantação, manutençã
+                                                  o e acesso público aos da...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ... implantação, manutenção e acesso pú
+                                                  blico aos dados. No entant...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...necem desafios como a falta de aquisiçã
+                                                  o de dados tridimensionais...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...�ão de dados tridimensionais, limitaçõ
+                                                  es na capacidade de monito...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...toramento ativo e o uso de portadores nã
+                                                  o controlados ou parcialme...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...evem ser aprimorados nas futuras geraçõ
+                                                  es de sistemas de monitora...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 181.
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:181: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.181 ...de sistemas de monitoramento da poluiçã
+                                                  o do ar.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex:182: Missing $ inserted.
+<inserted text> 
+                $
+l.182 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (397.78029pt too wide) in paragraph at lines 181--182
+[]\OT1/ptm/m/n/10 O tra-balho yi$[]\OT1/cmr/m/n/10 015[]\OML/cmm/m/it/10 apresentaumarevis[]odossistemasdemonitoramentodapolui[][]odoarbaseadosemredesdesensoressemfio\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 WSN\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; classificando \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\OML/cmm/m/it/10 osemtr[]scategoriasprincipais \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (877.7024pt too wide) in paragraph at lines 181--182
+\OML/cmm/m/it/10 RedesdeSensoresEst[]ticas\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 SSN\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; RedesdeSensoresComunit[]rias\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 CSN\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 eRedesdeSensoresVeiculares\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 VSN\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; deacordocomostiposdeportadoresdossensores:Aan[]lisedestacaquemuitassolu[][]esatuaisj[]demonstramservi[]veisemtermosderesolu[][]oespa[]o \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1481.39554pt too wide) in paragraph at lines 181--182
+\OML/cmm/m/it/10 temporal; custo; efici[]nciaenerg[]tica; facilidadedeimplanta[][]o; manuten[][]oeacessop[]blicoaosdados:Noentanto; permanecemdesafioscomoafaltadeaquisi[][]odedadostridimensionais; limita[][]esnacapacidadedemonitoramentoativoeousodeportadoresn[]ocontroladosouparcialmentecontrolados; aspectosquedevemseraprimoradosnasfuturasgera[][]esdesistemasdemonitoramentodapolui[][]odoar:$ 
+ []
+
+
+LaTeX Warning: Reference `AA' on page 3 undefined on input line 187.
+
+
+LaTeX Warning: Reference `SCM' on page 3 undefined on input line 187.
+
+
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 221.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 221.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 221.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 222.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 226.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+[3]
+
+LaTeX Warning: Citation `b7' on page 4 undefined on input line 275.
+
+
+
+
+LaTeX Warning: Reference `fig' on page 4 undefined on input line 311.
+
+<fig1.png, id=23, 82.1469pt x 71.5473pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 331.
+(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 342.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 342.
+
+
+[4]
+
+LaTeX Warning: Citation `b1' on page 5 undefined on input line 355.
+
+
+LaTeX Warning: Citation `b2' on page 5 undefined on input line 356.
+
+
+LaTeX Warning: Citation `b3' on page 5 undefined on input line 357.
+
+
+LaTeX Warning: Citation `b3' on page 5 undefined on input line 357.
+
+
+LaTeX Warning: Citation `b3' on page 5 undefined on input line 357.
+
+
+LaTeX Warning: Citation `b3' on page 5 undefined on input line 358.
+
+
+LaTeX Warning: Citation `b4' on page 5 undefined on input line 366.
+
+
+LaTeX Warning: Citation `b5' on page 5 undefined on input line 367.
+
+
+LaTeX Warning: Citation `b6' on page 5 undefined on input line 372.
+
+
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+
+
+[5 <./fig1.png (PNG copy)>] (./conference_101719.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 9)
+
+### simple group (level 9) entered at line 181 ({)
+### simple group (level 8) entered at line 179 ({)
+### simple group (level 7) entered at line 173 ({)
+### simple group (level 6) entered at line 159 ({)
+### simple group (level 5) entered at line 157 ({)
+### simple group (level 4) entered at line 141 ({)
+### simple group (level 3) entered at line 138 ({)
+### simple group (level 2) entered at line 128 ({)
+### simple group (level 1) entered at line 124 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4352 strings out of 473200
+ 67403 string characters out of 5720279
+ 497904 words of memory out of 5000000
+ 27547 multiletter control sequences out of 15000+600000
+ 610256 words of font info for 138 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,11n,65p,1388b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (5 pages, 181655 bytes).
+PDF statistics:
+ 82 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
