@@ -11,47 +11,45 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Conference Paper Title*\\
-{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
-should not be used}
+\title{Wireless Sensor Networks for Environmental Monitoring: A Review of Sensors, Communication Technologies, and Applications
 \thanks{Identify applicable funding agency here. If none, delete this.}
 }
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
+\author{\IEEEauthorblockN{1\textsuperscript{st} Given Klaus Dieter Kupper}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 \textit{name of organization (of Aff.)}\\
 City, Country \\
 email address or ORCID}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
+\IEEEauthorblockN{2\textsuperscript{nd} Jordan}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 \textit{name of organization (of Aff.)}\\
 City, Country \\
 email address or ORCID}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+% \and
+% \IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
+% \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+% \textit{name of organization (of Aff.)}\\
+% City, Country \\
+% email address or ORCID}
+% \and
+% \IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
+% \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+% \textit{name of organization (of Aff.)}\\
+% City, Country \\
+% email address or ORCID}
+% \and
+% \IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
+% \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+% \textit{name of organization (of Aff.)}\\
+% City, Country \\
+% email address or ORCID}
+% \and
+% \IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
+% \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+% \textit{name of organization (of Aff.)}\\
+% City, Country \\
+% email address or ORCID}
 }
 
 \maketitle
@@ -67,281 +65,209 @@ component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
 \section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+The increasing urbanization and climate change have diverse impacts on different layers of society, threatening individuals in vulnerable situations during disasters such as floods, or affecting agricultural production due to climatic variations \cite{jonkman_2005_global, hall_2014_understanding, bragana_2024_anlise, borga_2014_hydrogeomorphic}. These phenomena highlight the need for effective monitoring systems that can provide more data on environmental conditions and help us monitor, analyze, and predict such events \cite{hall_2014_understanding, lin_2020_semantic, lo_2015_visual, iqbal_2021_how}.
 
-\section{Ease of Use}
+When we talk about environmental monitoring, we refer to a wide range of applications and devices. Particularly in remote and hard-to-reach areas, this represents a significant technical challenge. The vastness of these territories, combined with adverse environmental conditions and the growing demand for real-time data, requires technological solutions that are robust, cost-effective, and scalable \cite{chen_2013_natural, yellampalli_2021_wireless, pule_2017_wireless}.
 
-\subsection{Maintaining the Integrity of the Specifications}
+In this context, Wireless Sensor Networks (WSNs) have established themselves as a promising tool, offering significant advantages in terms of deployment flexibility, quick responsiveness, and cost-benefit compared to traditional monitoring infrastructures. WSNs enable dense spatial sampling and continuous data collection—critical aspects for tracking natural phenomena \cite{chen_2013_natural, ferreira_2023_conception, pule_2017_wireless}.
 
-The IEEEtran class file is used to format your paper and style the text. All margins, 
-column widths, line spaces, and text fonts are prescribed; please do not 
-alter them. You may note peculiarities. For example, the head margin
-measures proportionately more than is customary. This measurement 
-and others are deliberate, using specifications that anticipate your paper 
-as one part of the entire proceedings, and not as an independent document. 
-Please do not revise any of the current designations.
+The need for real-time environmental monitoring has increased the demand for data, highlighting the importance of low-power, long-range technologies such as LoRa. These technologies are particularly suitable for applications in remote areas where communication infrastructure is limited or non-existent \cite{pule_2017_wireless, chen_2013_natural, ferreira_2023_conception}.
 
-%% ------------------------- PTBR
+Additionally, we see a growing trend in the demand for data integration with artificial intelligence systems, which can extract valuable insights and trends and support real-time decision-making. This integration enhances the predictive capabilities of environmental monitoring systems and opens opportunities for new applications \cite{nr_2025_ai, mukhopadhyay_2021_artificial, ferreira_2023_conception, chen_2013_natural, lin_2020_semantic}. In 2021, a new definition was proposed for this concept, combining AI and IoT as AIoT, referring to the integration of artificial intelligence with the Internet of Things (IoT) to create smarter and more autonomous systems \cite{mukhopadhyay_2021_artificial}.
 
-% 2 Sensors and Technologies for Environmental Monitoring
-% Sensor classification from that “sensors daily use…” - Active or passive and applications.
-% 2.1 Water Monitoring
-% Focus: Water level (ultrasonic, LiDAR, float sensors),Water quality (pH, turbidity, EC sensors), flood detection, river monitoring.
-% Innovations: Archimedes-based sensors, object recognition methods, SAW?.
+This literature review is structured into five main sections. First, it addresses the sensors and technologies used in environmental monitoring, categorizing them according to their application domains (hydrological, soil, and air quality). Next, the role of Wireless Sensor Networks and associated communication technologies is discussed. Then, the main challenges and current trends in the field of environmental monitoring are presented, focusing on technological innovations. Finally, conclusions and future perspectives are outlined.
 
-% Relevant Articles:
-% 1"An Intelligent Water Level Estimation System" — Uses object recognition via deep learning for water levels. (Observations: Estimation via camera + ML.)
-% 2"A Technical Evaluation of Lidar-Based Measurement of River Water Levels" — Discusses LiDAR for precise water monitoring. (High relevance.)
-% 3"A low-cost ultrasonic sensor for online monitoring of liquid level" — Simple ultrasonic-based approach. (Low relevance but practical example.)
-% 4"SAW Sensor based a Novel Hydrostatic Liquid Level Sensor" — Novel SAW-based liquid level sensor. (Observation: Hydrostatic pressure with SAW.)
-% 5"Modeling and testing of a highly sensitive surface acoustic wave hydrostatic liquid level sensor" — Focus on SAW tech for water levels.
-% 6"Development of liquid level measurement technologies: A review" — Industrial-focused review of level sensors.
+Although previous reviews have thoroughly examined sensors for soil monitoring, such as those by \cite{yin_2021_smart, teng_2014_soil, queiroz_2020_sensors}, or water level measurement techniques as in \cite{mohindru_2023_development, nr_2025_ai, wu_2023_a}, there is a notable lack of recent studies that comprehensively integrate both sensor technologies and communication infrastructures, bringing emerging concepts in environmental monitoring and going beyond specific applications.
 
-% 2.2 Soil Monitoring
-% Focus: Soil moisture, nutrients, agriculture precision.
-% Use of SAW sensors, RFID-based systems, and nanotechnology.
-% Relevant Articles:
-% 1"Smart Agriculture Systems: Soil Sensors and Plant Wearables for Smart and Precision Agriculture" — Extensive review, strong base for soil monitoring section. (MIT paper, highly relevant.)
-% 2"Conception and Design of WSN Sensor Nodes Based on Soil Moisture Monitoring" — Focus on soil pH, turbidity, and temperature sensors. (Observation: Detailed sensor design.)
-% 3"Applications of Sensor Networks and Remote Sensing in Precision Agriculture" — General but with some relevance to WSN in agriculture. (Observation: Somewhat shallow but covers multiple angles.)
+This review aims to fill that gap by offering a broad perspective that covers sensor technologies applied to the monitoring of soil, water, and/or air/chemical compounds, along with an analysis of wireless communication technologies, energy efficiency strategies, and security challenges in WSN deployments for environmental monitoring. The main contribution of this work is to consolidate multidisciplinary advances, highlight underexplored technologies, and provide a comparative analysis to guide future research and applications in the development of environmental monitoring projects.
 
-% 2.3 Air and Chemical Monitoring
-% Focus: Air quality, gas detection, environmental chemical monitoring.
-% "SAW Sensors for Chemical Vapors and Gases" — Discusses SAW sensor principles for air/gas detection. (Observation: Emphasizes SAW advantages like sensitivity and robustness.)
-% "A Progress Review on Solid‐State LiDAR and Nanophotonic Sensors" — Discusses LiDAR, photonic sensors applicable to particulate air detection or similar use cases.
+\section{Sensors and Technologies for Environmental Monitoring} \label{cap:sensors}
 
-\section{Sensores e Tecnologias para Monitoramento Ambiental} \label{cap:sensors}
+Our daily lives are full of sensors constantly collecting data about the environment around us. These sensors can be classified in many different ways. Some relevant categorization examples include: active and passive sensors, where active sensors emit some type of signal to measure a physical quantity, while passive sensors only capture signals that already exist in the environment \cite{javaid_2021_sensors}. Another way to classify sensors is by how they interact with the environment, where contact sensors measure physical quantities directly in contact with the medium, while non-contact sensors measure physical quantities without needing direct contact \cite{javaid_2021_sensors, mohindru_2023_development, wu_2023_a}. Finally, there are many other ways to classify sensors; in this work, we chose to group sensors according to the type of environment where they are applied, such as water level sensors, air quality sensors, and soil sensors, in order to better guide research in those environments.
+\section{Water Monitoring} \label{sec:water_monitoring}
 
-Nosso dia a dia é repleto de sensores, sempre coletando dados sobre o ambiente ao nosso redor. Esses sensores podem ser classificados de muitas formas diferentes, alguns exemplos de categorização relevantes para entendimento são: sensores ativos e passivos, onde os sensores ativos emitem algum tipo de sinal para medir uma grandeza física, enquanto os sensores passivos apenas captam sinais já existentes no ambiente \cite{javaid_2021_sensors}. Outra forma de classificar os sensores é a forma com que interagem com o ambiente, onde sensores de contato medem grandezas físicas diretamente em contato com o meio, enquanto sensores de não contato medem grandezas físicas sem necessidade de contato direto \cite{javaid_2021_sensors, mohindru_2023_development, wu_2023_a}. Por fim, existem ainda muitas outras formas de classificar sensores, neste trabalho optou-se por agrupar os sensores de acordo com o tipo de ambiente onde sao aplicados, como sensores de nível de água, sensores de qualidade do ar, sensores de solo, de forma a melhor guiar pesquisas nesses ambientes. 
+When talking about water monitoring, we can divide the sensors into two main types: water level sensors and water quality sensors. Water level sensors are used to measure the height of the water column in water bodies like rivers, lakes, and reservoirs or in controlled environments like tanks and wells. Water quality sensors are used to measure parameters such as pH, turbidity, electrical conductivity (EC), and other chemical compounds present in the water.
+\subsection{Water Level Sensors} \label{subsec:water_level_sensors}
 
-\section{Monitoramento de Água}\label{sec:water_monitoring}
+For monitoring water levels in natural environments like rivers and lakes, traditional contact sensors stand out, such as pressure sensors or limnigraphs, which measure the pressure exerted by the water column on the sensor. One such sensor was tested by \cite{santana_2024_development}, showing good readings and being insensitive to parameters like water turbidity. However, the same study highlights a weakness of this technology---its use in harsh environments. In flood conditions, for example, with high debris loads and strong currents, these sensors can be compromised. Additionally, contact sensors for monitoring in natural environments may involve float systems that detect the water height relative to a fixed point, or floating sensors that use a float connected to a cable or rope to measure water height. These sensors are simple and effective but can be affected by factors like floating debris, temperature variations, and corrosion \cite{mohammadrezamasoudimoghaddam_2024_a,santana_2024_development, paul_2020_a, yukawa_2025_an}.
 
-Quando falamos de monitoramento de água, podemos dividir os sensores em dois tipos principais: sensores de nível de água e sensores de qualidade da água. Os sensores de nível de água são utilizados para medir a altura da coluna d'água em corpos hídricos, como rios, lagos e reservatórios ou em ambientes controlados como tanques e poços. Já os sensores de qualidade da água são usados para medir parâmetros como pH, turbidez, condutividade elétrica (EC) e outros compostos químicos presentes na água.
+When selecting sensors for water level monitoring in controlled environments like tanks and wells—and where long-range sensing is not a concern—we do not need to worry as much about floating debris. In these cases, the previously mentioned sensors for rivers and lakes can be used, as well as other simpler methods such as resistive water level sensors, which measure electrical resistance between two electrodes submerged in water. These sensors are inexpensive and easy to install but may be affected by corrosion and mineral deposits \cite{santana_2024_development, mohindru_2023_development}.
 
-\subsection{Sensores de Nível de Água}\label{subsec:water_level_sensors}
+For this category—monitoring level in controlled environments—there are also emerging technologies with great potential. One example is passive water level sensors based on acoustic waves. The SAW sensor measures strain or pressure variations in the tank wall caused by water level changes, converting these variations into response signals, as developed by \cite{ali_2020_saw} and \cite{sreejith_2024_modeling}. Another promising technology is optical fiber-based water level sensors, which rely on the hydrostatic principle of Archimedes and use the variation of light transmitted through an optical fiber and a floating element to measure the height of the water column. This principle is demonstrated in the developments by \cite{ramos_2025_high}. These sensors are highly accurate but are still complex to install and operate.
 
-Para o monitoramento de nível de água em ambientes naturais como rios e lagos, podemos destacar os tradicionais sensores de contato, como os sensores de pressão ou linigráficos, que medem a pressão exercida pela coluna d'água sobre o sensor, um destes foi testado por \textcite{santana_2024_development}, destacando que o mesmo faz boas leituras, sendo indiferente a parametros como turbidez da água, porém o mesmo trabalho destaca o ponto fraco desta tecnologia que é a sua aplicação em ambientes hostis, visto que em situaçoes como a cheia do rio, onde há uma grande quantidade de entulhos e forte correnteza, esses sensores podem ser comprometidos. Além disso sensores de contato para monitoramento em ambientes naturais podem envolver conjuntos de boias, que detecam a altura da água em relação a um ponto fixo, ou sensores de flutuação, que utilizam um flutuador conectado a um cabo ou corda para medir a altura da água. Esses sensores são simples e eficazes, mas podem ser afetados por fatores como detritos flutuantes, variações de temperatura e corrosão \cite{mohammadrezamasoudimoghaddam_2024_a,santana_2024_development,paul_2020_a,yukawa_2025_an} .
+For non-contact monitoring applications, this review highlights three approaches: ultrasonic sensors, LiDAR sensors, and remote monitoring via satellite imagery.
 
-Quando buscamos sensores para monitoramento de nível em ambientes controlados como tanques e poços, e não estamos preocupados em sensores de longo alcance, não precisamos nos preocupar tanto com fatores como detritos flutuantes, e podemos utilizar os sensores ja mencionados anteriormente para aplicações em rios e lagos, além de outros metodos mais simples como os sensores de nível de água resistivos, que medem a resistência elétrica entre dois eletrodos submersos na água. Esses sensores são econômicos e fáceis de instalar, mas podem ser afetados por corrosão e depósitos minerais \cite{santana_2024_development, mohindru_2023_development}.
+Ultrasonic water level sensors emit sound waves and measure the time it takes for the waves to return to the sensor. These sensors are widely used due to their accuracy and ability to operate in environments with temperature and pressure variations \cite{mohammadrezamasoudimoghaddam_2024_a, pereira_2022_evaluation}. For example, the ultrasonic sensor model GY-Us42 was tested, showing that the average error of the device is less than 3\% \cite{mohammadrezamasoudimoghaddam_2024_a}. Another model, the HC-SR04, was also evaluated as a technically and economically viable option for water level monitoring \cite{pereira_2022_evaluation}, and is a good choice for education, citizen science, and research due to its low cost \cite{bresnahan_2023_a}.
 
-Para essa categoria  monitoramento de nível em ambientes controlados existem ainda tecnologias emergentes que demonstram potencial, como os sensores passivos de nível de água baseados em ondas acústicas, o sensor SAW mede variações de deformação ou pressão na parede do tanque causadas pela mudança no nível da água, convertendo essas alterações em sinais de resposta, como os desenvolvidos por \textcite{ali_2020_saw} e \textcite{sreejith_2024_modeling}. Outra tecnologia que aparece como promissora são os sensores de nível com fibra óptica, se baseiam no principio de Arquimedes da hidrostatica e utilizam a variação da luz transmitida através de uma fibra óptica e um elemento flutuante para medir a altura da coluna d'água, o principio é demonstrado com avanços desenvolvidos por \textcite{ramos_2025_high}. Esses sensores são altamente precisos, mas ainda são complexos de instalar e operar.
+LiDAR sensors use optical waves to measure distances and speeds and are widely used in metrology, environmental monitoring, archaeology, and robotics \cite{behroozpour_2017_lidar, li_2022_a}. The measurement principle of LiDAR is based on the surface roughness of the reflective surface to generate non-specular reflection (i.e., scattering) of the emitted laser beam. The near-infrared (NIR) wavelength range is most commonly used for this purpose, typically between 900 and 1100 nm (270–330 THz), due to the low cost of lasers operating in this range and the lower energy density compared to visible light \cite{li_2022_a, fernandezdiaz_2014_early, smart_2009_river, behroozpour_2017_lidar}. Like ultrasonic sensors, LiDAR measurements are based on time of flight (TOF), with two main TOF methods: pulsed TOF and AMCW TOF. In pulsed TOF, an optical pulse is emitted, and the return time is measured. In AMCW TOF, a continuous amplitude-modulated wave is used, and the phase difference between transmitted and received signals is used to determine distance \cite{li_2022_a}.
 
-Para aplicações de monitoramento sem contato, esta revisão apresenta tres destaques, sensores ultrassônicos, sensores lidar, e monitoramento remoto através de imagens geradas por aplicações aeroespaciais.
+These sensors have been explored as a low-cost alternative for measuring water levels from bridges, with lab and field tests showing good accuracy (error around 0.1\%), though subject to variations due to sensor temperature and water surface roughness \cite{paul_2020_a}. LiDAR sensors installed on riverbanks for flood monitoring were also tested with good results—the study showed that suspended particles in the water positively affected reading accuracy and that the sensor could also be used to detect suspended particle concentration \cite{tamari_2016_flash}. Another study compared the TF-mini LiDAR sensor with limnigraph pressure sensors, highlighting the benefits of LiDAR’s non-contact measurement method over the contact-based limnigraph method and validating LiDAR as an excellent choice among fluid level measurement technologies \cite{santana_2024_development}.
 
-Os sensores de nível de água baseados em ultrassom, emitem ondas sonoras e medem o tempo que essas ondas levam para retornar ao sensor. Esses sensores são amplamente utilizados devido à sua precisão e capacidade de operar em ambientes com variações de temperatura e pressão \cite{mohammadrezamasoudimoghaddam_2024_a, pereira_2022_evaluation}. Por exemplo, o modelo de sensor ultrassônico GY-Us42 foi testado com resultados indicando que o erro médio do dispositivo é inferior a 3\% \cite{mohammadrezamasoudimoghaddam_2024_a}. Outro modelo, o HC-SR04, também foi avaliado como uma alternativa técnica e econômica viável para monitoramento de níveis de água \cite{pereira_2022_evaluation}, além de ser uma boa opção para educação, ciência cidadã e pesquisa devido ao seu baixo custo \cite{bresnahan_2023_a}.
+Another method for monitoring water levels in open environments is remote monitoring using satellite data, as in the work by \cite{jiang_2024_monitoring}, which uses satellite images and data to estimate the levels of a watershed. Similarly, \cite{ali_2024_satellite} uses this technique and compares satellite-based estimates with traditional measurements taken at various points along a river, with both studies presenting positive results for this approach.
 
-Os sensores LiDAR fazem uso de ondas ópticas para medir distâncias e velocidades, sendo amplamente utilizados em metrologia, monitoramento ambiental, arqueologia e robótica\cite{behroozpour_2017_lidar, li_2022_a}. O princípio de medição do LiDAR baseia-se na rugosidade da superfície refletora para gerar reflexão não especular (ou seja, dispersão) do feixe laser emitido. A faixa de luz próxima do infravermelho (NIR) é a mais comumente utilizada para esse fim, geralmente em comprimentos de onda entre 900 e 1100 nm (270-330 THz), devido ao baixo custo dos lasers operando nessa faixa e à menor densidade de energia em comparação com o espectro visível \cite{li_2022_a, fernandezdiaz_2014_early, smart_2009_river, behroozpour_2017_lidar}. Assim como nos sensores ultrassônicos, a medição do LiDAR é feita pelo tempo de voo (TOF), mas existem dois métodos principais de medição, o TOF pulsado e o AMCW TOF, que diferem na forma como o sinal é emitido e recebido. No TOF pulsado, um pulso óptico é emitido e o tempo que leva para retornar ao sensor é medido, enquanto no AMCW TOF, uma onda contínua modulada em amplitude é utilizada, e a diferença de fase entre os sinais transmitidos e recebidos é medida para determinar a distância \cite{li_2022_a}.
+\subsection{Water Quality}
 
-Esses sensores foram explorados como uma alternativa de baixo custo para medir níveis de água a partir de pontes, com testes em laboratório e campo indicando uma boa precisão com erro de 0.1\%, mas com variações significativas causadas pela temperatura do sensor e pela rugosidade da água \cite{paul_2020_a}. Sensores LiDAR instalados em margens de rios para monitoramento de enchentes também foram testados com bons resultados, o estudo indicou que partículas suspensas na água impactam positivamente a precisão das leituras, e que o sensor poderia também ser usado para detectar a cncentração dessas partículas suspensas na água\cite{tamari_2016_flash}. Outro estudo comparou o modelo de sensor LiDAR TF-mini com sensores de pressão linigráficos, mostrando os benefícios do método de medição sem contato do LiDAR em comparação com o método de contato do linigráfico e validando o LiDAR como uma excelente escolha entre as tecnologias de medição de nível de fluido comparadas \cite{santana_2024_development}.
+The work by \cite{ferreira_2023_conception} presents a water quality monitoring project that uses pH, turbidity, and electrical conductivity (EC) sensors, integrating local and distributed data fusion techniques with machine learning resources to improve real-time pollutant detection.
 
-Outro método de monitoramento de nível de água em ambientes abertos, e a utilização de monitoramento remoto usando dados obtidos via satélite, como o trabalho realizado por \textcite{jiang_2024_monitoring}, que utiliza imagens e outros dados obtidos via satélite para estimar os níveis de uma bacia hidrográfica ou os de \textcite{ali_2024_satellite} que também usam uma tecnica similar e comparam  estimativas feitas com dados obtidos via satélite com medicoes feitas em varios pontos ao longo do rio com metodos mais tradicionais, ambos os trabalhos apresentam resultados positivos para esta tecnica.
+\section{Soil Monitoring}
 
-\subsection{Qualidade da Água}
-O trabalho de \textcite{ferreira_2023_conception} apresenta um projeto de monitoramento de qualidade da água, que utiliza sensores de pH, turbidez e condutividade elétrica (EC) e integra técnicas de fusão de dados locais e distribuídos com recursos de machine learning para melhorar a detecção de poluentes em tempo real. 
+Soil monitoring is an essential tool to optimize crop growth, improve production efficiency, and promote more sustainable agricultural practices. Soil sensors enable continuous measurement of physical and chemical parameters, such as moisture and nutrient concentrations, providing real-time data to support decision-making in the field. The demand for these technologies is growing, driven by population growth, the need to increase food production, and the pressure for more efficient and environmentally conscious agricultural practices. A representative example is the soil moisture sensor market, which generated around US\$147.5 million in 2020, with expectations to reach US\$360.9 million by 2027, reflecting global interest in digital agriculture technologies \cite{yin_2021_smart}.
 
-\section{Monitoramento do Solo}
-% Focus: Soil moisture, nutrients, agriculture precision.
-% Use of SAW sensors, RFID-based systems, and nanotechnology.
-% Relevant Articles:
-% 1"Smart Agriculture Systems: Soil Sensors and Plant Wearables for Smart and Precision Agriculture" — Extensive review, strong base for soil monitoring section. (MIT paper, highly relevant.)
-% 2"Conception and Design of WSN Sensor Nodes Based on Soil Moisture Monitoring" — Focus on soil pH, turbidity, and temperature sensors. (Observation: Detailed sensor design.)
-% 3"Applications of Sensor Networks and Remote Sensing in Precision Agriculture" — General but with some relevance to WSN in agriculture. (Observation: Somewhat shallow but covers multiple angles.)
+Historically, agricultural management recommendations were developed based on broad agroecological zones, as occurred during the Green Revolution, when the focus was solely on increasing productivity through synthetic fertilizers, without adequately considering local soil and water conditions or the associated environmental impacts. Much of this legacy still persists, with practices based on centralized procedures and generic empirical relationships between nutrients, fertilizer doses, and productivity. In this context, soil sensors emerge as a key tool to break away from this “top-down” model and enable a “bottom-up” approach, where management decisions are guided by actual data specific to each agricultural microenvironment, in both space and time \cite{viscarrarossel_2016_soil}.
 
-O monitoramento do solo é uma ferramenta essencial para otimizar o crescimento das culturas, melhorar a eficiência produtiva e promover práticas agrícolas mais sustentáveis. Os sensores de solo permitem a medição contínua de parâmetros físicos e químicos, como umidade e concentração de nutrientes, fornecendo dados em tempo real para apoiar a tomada de decisão no campo. A demanda por essas tecnologias vem crescendo, impulsionada pelo aumento populacional, pela necessidade de ampliar a produção de alimentos e pela pressão por práticas agrícolas mais eficientes e conscientes em relação ao meio ambiente. Um exemplo representativo é o mercado de sensores de umidade do solo, que movimentou cerca de US\$ 147{,}5 milhões em 2020, com expectativa de atingir US\$ 360{,}9 milhões até 2027, refletindo o interesse global em tecnologias de agricultura digital \cite{yin_2021_smart} .
+\subsection{SAW, RFID, and Nanotechnology}
 
-Historicamente, as recomendações de manejo agrícola foram desenvolvidas seguindo uma lógica de zonas agroecológicas amplas, como ocorreu durante a Revolução Verde, quando o foco estava apenas no aumento da produtividade por meio de fertilizantes sintéticos, sem considerar adequadamente as condições locais de solo e água, nem os impactos ambientais associados. Grande parte desse legado ainda persiste, com práticas baseadas em procedimentos centralizados e relações empíricas genéricas entre nutrientes, doses de fertilizantes e produtividade. Nesse contexto, os sensores de solo surgem como uma ferramenta fundamental para romper com esse modelo “top-down” e viabilizar uma abordagem “bottom-up”, em que as decisões de manejo passam a ser orientadas por dados reais, específicos de cada microambiente agrícola, no espaço e no tempo \cite{viscarrarossel_2016_soil}.
+As we know, agriculture can span vast areas, and in such cases, WSNs and traditionally LoRaWAN are widely applicable since they allow remote coverage of these areas \cite{deng_2020_novel}. That said, other coverage alternatives for large areas have been explored beyond the more traditional LoRaWAN. The work by \cite{deng_2020_novel} presents a monitoring system consisting of RFID sensors embedded in the soil, a vehicle that moves through the monitored area collecting data, and a data processing center capable of covering large areas. Another study developed by \cite{akhileshnagpure_2022_water} explores the use of drones in a similar way to collect data in remote areas.
 
-\subsection{SAW, RFID, e nanotechnology}
-% monitoring system consists of RFID sensor, patrol car, farmland monitoring center and cloud platform
-Como sabemos a agricultura pode cobrir vastas areas e nestes casos WSNs e tradiconalmente LoRaWAN são muito aplicáveis pois permitem cobrir estas áreas de forma remota \textcite{deng_2020_novel}. Dito isso, outras alternativas de cobertura para grandes areas tem sido exploradas além do mais tradicional LoRaWAN, o trabalho de \textcite{deng_2020_novel} apresenta um sistema de monitoramento que consiste em sensores RFID no solo, um veículo que se movimenta pela área monitorada coletando dados, e um centro de coleta e tratamento de dados, capaz de cobrir amplas áreas. Outro trabalho desenvolvido por ESSE CARA \textcite{akhileshnagpure_2022_water}, apresenta a utilização de drones de maneira similar a citada, para captar dados em áreas remotas.
+The work by \cite{boada_2018_batteryless} presents the development of an innovative batteryless soil moisture sensor, using NFC technology with energy harvesting. The device is powered by the magnetic field generated by the NFC reader and performs measurements of temperature, relative humidity, and volumetric water content in the soil. An integrated microcontroller processes the collected data and transmits it to the NFC chip via I2C, storing the information in NDEF format for later reading. The study also compares different soil moisture measurement methods, selecting the one best suited to the energy limitations of the system. With a working principle similar to RFID, passive SAW-type sensors are also presented as alternatives for monitoring soil characteristics, as explored by \cite{akhileshnagpure_2022_water}. An innovative form of soil moisture detection was also explored by the same author using optical fibers installed over large areas to detect water concentration in the soil.
+\section{Air and Chemical Composition Monitoring}
 
-O trabalho de \textcite{boada_2018_batteryless} apresenta o desenvolvimento de um sensor inovador de umidade do solo que opera sem bateria, utilizando tecnologia NFC com colheita de energia. O dispositivo é alimentado pelo campo magnético gerado pelo leitor NFC e realiza a medição de temperatura, umidade relativa e conteúdo volumétrico de água no solo. Um microcontrolador integrado processa os dados coletados e os transmite ao chip NFC via I2C, armazenando as informações no formato NDEF para posterior leitura. O estudo também compara diferentes métodos de medição de umidade do solo, selecionando a abordagem mais adequada às limitações energéticas do sistema. Com um princípio de funcionamento similar ao RFID, sensores passivos do tipo SAW também são apresentados como alternativas para monitoramento de características do solo, como explorado por BLABLABLA \textcite{akhileshnagpure_2022_water}. Uma forma inovadora de detecção de umidade do solo foi explorada por BLABLABLA \textcite{akhileshnagpure_2022_water} utilizando fibras ópticas instaladas em vastas áreas para verificar a concentração de água no solo.
+When thinking of urban environments integrated with IoT under the concept of smart cities, one of the most relevant parameters is air quality, due to its direct impacts on public health, the environment, and the global economy. Atmospheric pollution in urban areas, with non-uniform spatial and temporal distribution, reinforces the need for monitoring systems with high spatiotemporal resolution—something traditional monitoring systems still struggle to provide at scale and with broad data coverage \cite{yi_2015_a}.
 
-AQUI UM PARAGRAFO SOBRE PLANTAS E NUTRIENTES, EXPLICAR SAW SENSOR E RFID?
+In this context, the advancement of sensor technologies, such as MEMS and wireless sensor networks (WSNs), has driven the development of the concept of the Next Generation Air Pollution Monitoring System (TNGAPMS). For this type of application, the most concerning gases are carbon monoxide (CO), nitrogen dioxide (NO$_2$), ground-level ozone (O$_3$), and sulfur dioxide (SO$_2$). Currently, the most used and suitable sensors for monitoring these gases in urban and industrial settings are electrochemical sensors and solid-state (semiconductor) sensors, although there are also other low-cost technologies such as catalytic sensors, NDIR, and PID sensors, which are widely applied in various gas detection contexts \cite{yi_2015_a}.
+\subsection{Chemical Element Detection}
 
-\section{Monitoramento do Ar e Composição Química do Ar}
-% Focus: Air quality, gas detection, environmental chemical monitoring.
-% "SAW Sensors for Chemical Vapors and Gases" — Discusses SAW sensor principles for air/gas detection. (Observation: Emphasizes SAW advantages like sensitivity and robustness.)
-% "A Progress Review on Solid‐State LiDAR and Nanophotonic Sensors" — Discusses LiDAR, photonic sensors applicable to particulate air detection or similar use cases.
-Quando pensamos em ambientes urbanos integrados com IoT, dentro do conceito de smart cities, um dos parâmetros mais relevantes é a qualidade do ar, devido aos impactos diretos na saúde pública, no meio ambiente e na economia global. A poluição atmosférica em áreas urbanas, com distribuição espacial e temporal não uniforme, reforça a necessidade de sistemas de monitoramento com alta resolução espaço-temporal, algo que os sistemas tradicionais de monitoramento ainda não conseguem oferecer de forma escalável e com ampla cobertura de dados \cite{yi_2015_a}.
+The study by \cite{devkota_2017_saw} investigates SAW sensors for passive detection of gases and chemical vapors in the air, based on the interaction of the compounds with the antenna, which alters the received acoustic signal. SAW sensors are shown to be viable for detecting inorganic gases such as NH$_3$, NO$_2$, SO$_2$, CO, organic vapors such as toluene, ethanol, acetone, and even chemical warfare agents.
+The study highlights the importance of material stability in extreme environments, the use of antennas for wireless operation, and low energy consumption, pointing to future research directions in sensitive materials, flexible sensors, and multi-element arrays for simultaneous gas monitoring.
 
-Nesse contexto, o avanço das tecnologias de sensores, como MEMS e redes de sensores sem fio (WSN), tem impulsionado o desenvolvimento do conceito de The Next Generation Air Pollution Monitoring System (TNGAPMS). Para esse tipo de aplicação, os gases de maior preocupação são monóxido de carbono (CO), dióxido de nitrogênio (NO$_2$), ozônio ao nível do solo (O$_3$) e dióxido de enxofre (SO$_2$). Atualmente, os sensores mais utilizados e adequados para o monitoramento de tais gases em cenários urbanos e industriais são os sensores eletroquímicos e os sensores de estado sólido (semicondutores), embora também existam outras tecnologias de baixo custo, como os sensores catalíticos, NDIR e PID, que são amplamente aplicados em diferentes contextos de detecção de gases \cite{yi_2015_a}.
+\subsection{Air Pollution and Quality}
 
-\subsection{Detecção de Elementos Químicos}
+The work by \cite{karagulian_2019_review} analyzes the performance of low-cost sensors (LCS) for monitoring various air pollutants, including carbon monoxide (CO), nitrogen oxides (NO and NO$_2$), ozone (O$_3$), and particulate matter (PM$_{2.5}$). The review highlights the potential of these sensors to expand spatial coverage in both urban and remote areas and assesses different calibration methods such as MLR, ANN, SVR, and RF, considering factors like relative humidity, which significantly affects particulate measurement.
 
-O estudo de \textcite{devkota_2017_saw} investiga sensores SAW para detecção passiva de gases e vapores químicos no ar, baseados na interação dos compostos com a antena, que altera o sinal acústico recebido. Sensores SAW mostram-se viáveis para detectar gases inorgânicos como NH$_3$, NO$_2$, SO$_2$, CO, vapores orgânicos como tolueno, etanol, acetona e agentes químicos de guerra.
-O trabalho destaca a importância da estabilidade dos materiais em ambientes extremos, o uso de antenas para operação sem fio e baixo consumo energético, e aponta para futuras pesquisas em materiais sensíveis, sensores flexíveis e arranjos multi-elemento para monitoramento simultâneo de vários gases.
+The study by \cite{yi_2015_a} presents a review of air pollution monitoring systems based on wireless sensor networks (WSNs), classifying them into three main categories: Static Sensor Networks (SSN), Community Sensor Networks (CSN), and Vehicular Sensor Networks (VSN), based on the types of sensor carriers. The analysis shows that many current solutions are already viable in terms of spatiotemporal resolution, cost, energy efficiency, ease of deployment, maintenance, and public data accessibility. However, challenges remain, such as the lack of 3D data acquisition, limitations in active monitoring capability, and the use of uncontrolled or semi-controlled carriers—factors that should be improved in the next generations of air pollution monitoring systems.
 
-FALAR DE OUTROS SENSORES MAIS COMUNS PARA ESTA APL
+% \section{Prepare Your Paper Before Styling}
+% Before you begin to format your paper, first write and save the content as a 
+% separate text file. Complete all content and organizational editing before 
+% formatting. Please note sections \ref{AA}--\ref{SCM} below for more information on 
+% proofreading, spelling and grammar.
 
-\subsection{Poluição e Qualidade do Ar}
-O trabalho de \textcite{karagulian_2019_review} analisa o desempenho de sensores de baixo custo (LCS) para o monitoramento de diversos poluentes atmosféricos, incluindo monóxido de carbono (CO), óxidos de nitrogênio (NO e NO$_2$), ozônio (O$_3$) e material particulado (PM$_{2.5}$). A revisão destaca o potencial desses sensores para ampliar a cobertura espacial em áreas urbanas e remotas, além de avaliar diferentes métodos de calibração, como MLR, ANN, SVR e RF, levando em conta fatores como a umidade relativa, que influencia significativamente a medição de partículas.
+% Keep your text and graphic files separate until after the text has been 
+% formatted and styled. Do not number text heads---{\LaTeX} will do that 
+% for you.
 
-O trabalho \textcite{yi_2015_a} apresenta uma revisão dos sistemas de monitoramento da poluição do ar baseados em redes de sensores sem fio (WSN), classificando-os em três categorias principais: Redes de Sensores Estáticas (SSN), Redes de Sensores Comunitárias (CSN) e Redes de Sensores Veiculares (VSN), de acordo com os tipos de portadores dos sensores. A análise destaca que muitas soluções atuais já demonstram ser viáveis em termos de resolução espaço-temporal, custo, eficiência energética, facilidade de implantação, manutenção e acesso público aos dados. No entanto, permanecem desafios como a falta de aquisição de dados tridimensionais, limitações na capacidade de monitoramento ativo e o uso de portadores não controlados ou parcialmente controlados, aspectos que devem ser aprimorados nas futuras gerações de sistemas de monitoramento da poluição do ar.
+% \subsection{Abbreviations and Acronyms}\label{AA}
+% Define abbreviations and acronyms the first time they are used in the text, 
+% even after they have been defined in the abstract. Abbreviations such as 
+% IEEE, SI, MKS, CGS, ac, dc, and rms do not have to be defined. Do not use 
+% abbreviations in the title or heads unless they are unavoidable.
 
-%% ------------------------- PTBR
-\section{Prepare Your Paper Before Styling}
-Before you begin to format your paper, first write and save the content as a 
-separate text file. Complete all content and organizational editing before 
-formatting. Please note sections \ref{AA}--\ref{SCM} below for more information on 
-proofreading, spelling and grammar.
+% \subsection{Units}
+% \begin{itemize}
+% \item Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
+% \item Avoid combining SI and CGS units, such as current in amperes and magnetic field in oersteds. This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
+% \item Do not mix complete spellings and abbreviations of units: ``Wb/m\textsuperscript{2}'' or ``webers per square meter'', not ``webers/m\textsuperscript{2}''. Spell out units when they appear in text: ``. . . a few henries'', not ``. . . a few H''.
+% \item Use a zero before decimal points: ``0.25'', not ``.25''. Use ``cm\textsuperscript{3}'', not ``cc''.)
+% \end{itemize}
 
-Keep your text and graphic files separate until after the text has been 
-formatted and styled. Do not number text heads---{\LaTeX} will do that 
-for you.
+% \subsection{Equations}
+% Number equations consecutively. To make your 
+% equations more compact, you may use the solidus (~/~), the exp function, or 
+% appropriate exponents. Italicize Roman symbols for quantities and variables, 
+% but not Greek symbols. Use a long dash rather than a hyphen for a minus 
+% sign. Punctuate equations with commas or periods when they are part of a 
+% sentence, as in:
+% \begin{equation}
+% a+b=\gamma\label{eq}
+% \end{equation}
 
-\subsection{Abbreviations and Acronyms}\label{AA}
-Define abbreviations and acronyms the first time they are used in the text, 
-even after they have been defined in the abstract. Abbreviations such as 
-IEEE, SI, MKS, CGS, ac, dc, and rms do not have to be defined. Do not use 
-abbreviations in the title or heads unless they are unavoidable.
+% Be sure that the 
+% symbols in your equation have been defined before or immediately following 
+% the equation. Use ``\eqref{eq}'', not ``Eq.~\eqref{eq}'' or ``equation \eqref{eq}'', except at 
+% the beginning of a sentence: ``Equation \eqref{eq} is . . .''
 
-\subsection{Units}
-\begin{itemize}
-\item Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
-\item Avoid combining SI and CGS units, such as current in amperes and magnetic field in oersteds. This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
-\item Do not mix complete spellings and abbreviations of units: ``Wb/m\textsuperscript{2}'' or ``webers per square meter'', not ``webers/m\textsuperscript{2}''. Spell out units when they appear in text: ``. . . a few henries'', not ``. . . a few H''.
-\item Use a zero before decimal points: ``0.25'', not ``.25''. Use ``cm\textsuperscript{3}'', not ``cc''.)
-\end{itemize}
+% \subsection{\LaTeX-Specific Advice}
 
-\subsection{Equations}
-Number equations consecutively. To make your 
-equations more compact, you may use the solidus (~/~), the exp function, or 
-appropriate exponents. Italicize Roman symbols for quantities and variables, 
-but not Greek symbols. Use a long dash rather than a hyphen for a minus 
-sign. Punctuate equations with commas or periods when they are part of a 
-sentence, as in:
-\begin{equation}
-a+b=\gamma\label{eq}
-\end{equation}
+% Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
+% of ``hard'' references (e.g., \verb|(1)|). That will make it possible
+% to combine sections, add equations, or change the order of figures or
+% citations without having to go through the file line by line.
 
-Be sure that the 
-symbols in your equation have been defined before or immediately following 
-the equation. Use ``\eqref{eq}'', not ``Eq.~\eqref{eq}'' or ``equation \eqref{eq}'', except at 
-the beginning of a sentence: ``Equation \eqref{eq} is . . .''
+% Please don't use the \verb|{eqnarray}| equation environment. Use
+% \verb|{align}| or \verb|{IEEEeqnarray}| instead. The \verb|{eqnarray}|
+% environment leaves unsightly spaces around relation symbols.
 
-\subsection{\LaTeX-Specific Advice}
+% Please note that the \verb|{subequations}| environment in {\LaTeX}
+% will increment the main equation counter even when there are no
+% equation numbers displayed. If you forget that, you might write an
+% article in which the equation numbers skip from (17) to (20), causing
+% the copy editors to wonder if you've discovered a new method of
+% counting.
 
-Please use ``soft'' (e.g., \verb|\eqref{Eq}|) cross references instead
-of ``hard'' references (e.g., \verb|(1)|). That will make it possible
-to combine sections, add equations, or change the order of figures or
-citations without having to go through the file line by line.
+% {\BibTeX} does not work by magic. It doesn't get the bibliographic
+% data from thin air but from .bib files. If you use {\BibTeX} to produce a
+% bibliography you must send the .bib files. 
 
-Please don't use the \verb|{eqnarray}| equation environment. Use
-\verb|{align}| or \verb|{IEEEeqnarray}| instead. The \verb|{eqnarray}|
-environment leaves unsightly spaces around relation symbols.
+% {\LaTeX} can't read your mind. If you assign the same label to a
+% subsubsection and a table, you might find that Table I has been cross
+% referenced as Table IV-B3. 
 
-Please note that the \verb|{subequations}| environment in {\LaTeX}
-will increment the main equation counter even when there are no
-equation numbers displayed. If you forget that, you might write an
-article in which the equation numbers skip from (17) to (20), causing
-the copy editors to wonder if you've discovered a new method of
-counting.
+% {\LaTeX} does not have precognitive abilities. If you put a
+% \verb|\label| command before the command that updates the counter it's
+% supposed to be using, the label will pick up the last counter to be
+% cross referenced instead. In particular, a \verb|\label| command
+% should not go before the caption of a figure or a table.
 
-{\BibTeX} does not work by magic. It doesn't get the bibliographic
-data from thin air but from .bib files. If you use {\BibTeX} to produce a
-bibliography you must send the .bib files. 
+% Do not use \verb|\nonumber| inside the \verb|{array}| environment. It
+% will not stop equation numbers inside \verb|{array}| (there won't be
+% any anyway) and it might stop a wanted equation number in the
+% surrounding equation.
 
-{\LaTeX} can't read your mind. If you assign the same label to a
-subsubsection and a table, you might find that Table I has been cross
-referenced as Table IV-B3. 
+% \subsection{Some Common Mistakes}\label{SCM}
+% \begin{itemize}
+% \item The word ``data'' is plural, not singular.
+% \item The subscript for the permeability of vacuum $\mu_{0}$, and other common scientific constants, is zero with subscript formatting, not a lowercase letter ``o''.
+% \item In American English, commas, semicolons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
+% \item A graph within a graph is an ``inset'', not an ``insert''. The word alternatively is preferred to the word ``alternately'' (unless you really mean something that alternates).
+% \item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
+% \item In your paper title, if the words ``that uses'' can accurately replace the word ``using'', capitalize the ``u''; if not, keep using lower-cased.
+% \item Be aware of the different meanings of the homophones ``affect'' and ``effect'', ``complement'' and ``compliment'', ``discreet'' and ``discrete'', ``principal'' and ``principle''.
+% \item Do not confuse ``imply'' and ``infer''.
+% \item The prefix ``non'' is not a word; it should be joined to the word it modifies, usually without a hyphen.
+% \item There is no period after the ``et'' in the Latin abbreviation ``et al.''.
+% \item The abbreviation ``i.e.'' means ``that is'', and the abbreviation ``e.g.'' means ``for example''.
+% \end{itemize}
 
-{\LaTeX} does not have precognitive abilities. If you put a
-\verb|\label| command before the command that updates the counter it's
-supposed to be using, the label will pick up the last counter to be
-cross referenced instead. In particular, a \verb|\label| command
-should not go before the caption of a figure or a table.
+% \subsection{Figures and Tables}
+% \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
+% bottom of columns. Avoid placing them in the middle of columns. Large 
+% figures and tables may span across both columns. Figure captions should be 
+% below the figures; table heads should appear above the tables. Insert 
+% figures and tables after they are cited in the text. Use the abbreviation 
+% ``Fig.~\ref{fig}'', even at the beginning of a sentence.
 
-Do not use \verb|\nonumber| inside the \verb|{array}| environment. It
-will not stop equation numbers inside \verb|{array}| (there won't be
-any anyway) and it might stop a wanted equation number in the
-surrounding equation.
+% \begin{table}[htbp]
+% \caption{Table Type Styles}
+% \begin{center}
+% \begin{tabular}{|c|c|c|c|}
+% \hline
+% \textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
+% \cline{2-4} 
+% \textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
+% \hline
+% copy& More table copy$^{\mathrm{a}}$& &  \\
+% \hline
+% \multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
+% \end{tabular}
+% \label{tab1}
+% \end{center}
+% \end{table}
 
-\subsection{Some Common Mistakes}\label{SCM}
-\begin{itemize}
-\item The word ``data'' is plural, not singular.
-\item The subscript for the permeability of vacuum $\mu_{0}$, and other common scientific constants, is zero with subscript formatting, not a lowercase letter ``o''.
-\item In American English, commas, semicolons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
-\item A graph within a graph is an ``inset'', not an ``insert''. The word alternatively is preferred to the word ``alternately'' (unless you really mean something that alternates).
-\item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
-\item In your paper title, if the words ``that uses'' can accurately replace the word ``using'', capitalize the ``u''; if not, keep using lower-cased.
-\item Be aware of the different meanings of the homophones ``affect'' and ``effect'', ``complement'' and ``compliment'', ``discreet'' and ``discrete'', ``principal'' and ``principle''.
-\item Do not confuse ``imply'' and ``infer''.
-\item The prefix ``non'' is not a word; it should be joined to the word it modifies, usually without a hyphen.
-\item There is no period after the ``et'' in the Latin abbreviation ``et al.''.
-\item The abbreviation ``i.e.'' means ``that is'', and the abbreviation ``e.g.'' means ``for example''.
-\end{itemize}
-An excellent style manual for science writers is \cite{b7}.
+% \begin{figure}[htbp]
+% \centerline{\includegraphics{fig1.png}}
+% \caption{Example of a figure caption.}
+% \label{fig}
+% \end{figure}
 
-\subsection{Authors and Affiliations}
-\textbf{The class file is designed for, but not limited to, six authors.} A 
-minimum of one author is required for all conference articles. Author names 
-should be listed starting from left to right and then moving down to the 
-next line. This is the author sequence that will be used in future citations 
-and by indexing services. Names should not be listed in columns nor group by 
-affiliation. Please keep your affiliations as succinct as possible (for 
-example, do not differentiate among departments of the same organization).
-
-\subsection{Identify the Headings}
-Headings, or heads, are organizational devices that guide the reader through 
-your paper. There are two types: component heads and text heads.
-
-Component heads identify the different components of your paper and are not 
-topically subordinate to each other. Examples include Acknowledgments and 
-References and, for these, the correct style to use is ``Heading 5''. Use 
-``figure caption'' for your Figure captions, and ``table head'' for your 
-table title. Run-in heads, such as ``Abstract'', will require you to apply a 
-style (in this case, italic) in addition to the style provided by the drop 
-down menu to differentiate the head from the text.
-
-Text heads organize the topics on a relational, hierarchical basis. For 
-example, the paper title is the primary text head because all subsequent 
-material relates and elaborates on this one topic. If there are two or more 
-sub-topics, the next level head (uppercase Roman numerals) should be used 
-and, conversely, if there are not at least two sub-topics, then no subheads 
-should be introduced.
-
-\subsection{Figures and Tables}
-\paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
-bottom of columns. Avoid placing them in the middle of columns. Large 
-figures and tables may span across both columns. Figure captions should be 
-below the figures; table heads should appear above the tables. Insert 
-figures and tables after they are cited in the text. Use the abbreviation 
-``Fig.~\ref{fig}'', even at the beginning of a sentence.
-
-\begin{table}[htbp]
-\caption{Table Type Styles}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
-\cline{2-4} 
-\textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
-\hline
-copy& More table copy$^{\mathrm{a}}$& &  \\
-\hline
-\multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-\end{tabular}
-\label{tab1}
-\end{center}
-\end{table}
-
-\begin{figure}[htbp]
-\centerline{\includegraphics{fig1.png}}
-\caption{Example of a figure caption.}
-\label{fig}
-\end{figure}
-
-Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
-rather than symbols or abbreviations when writing Figure axis labels to 
-avoid confusing the reader. As an example, write the quantity 
-``Magnetization'', or ``Magnetization, M'', not just ``M''. If including 
-units in the label, present them within parentheses. Do not label axes only 
-with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization 
-\{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of 
-quantities and units. For example, write ``Temperature (K)'', not 
-``Temperature/K''.
+% Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
+% rather than symbols or abbreviations when writing Figure axis labels to 
+% avoid confusing the reader. As an example, write the quantity 
+% ``Magnetization'', or ``Magnetization, M'', not just ``M''. If including 
+% units in the label, present them within parentheses. Do not label axes only 
+% with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization 
+% \{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of 
+% quantities and units. For example, write ``Temperature (K)'', not 
+% ``Temperature/K''.
 
 \section*{Acknowledgment}
 
@@ -350,38 +276,146 @@ an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B.
 G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
 acknowledgments in the unnumbered footnote on the first page.
 
-\section*{References}
-
-Please number citations consecutively within brackets \cite{b1}. The 
-sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
-
-Number footnotes separately in superscripts. Place the actual footnote at 
-the bottom of the column in which it was cited. Do not put footnotes in the 
-abstract or reference list. Use letters for table footnotes.
-
-Unless there are six authors or more give all authors' names; do not use 
-``et al.''. Papers that have not been published, even if they have been 
-submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-Capitalize only the first word in a paper title, except for proper nouns and 
-element symbols.
-
-For papers published in translation journals, please give the English 
-citation first, followed by the original foreign-language citation \cite{b6}.
-
 \begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
-\end{thebibliography}
-\vspace{12pt}
-\color{red}
-IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+    
+\bibitem{javaid_2021_sensors} M. Javaid, A. Haleem, S. Rab, R. P. Singh, and R. Suman, ``Sensors for daily life: A review,'' \emph{Sensors International}, vol. 2, p. 100121, 2021. doi: 10.1016/j.sintl.2021.100121.
+\bibitem{yi_2015_a} W. Yi, K. Lo, T. Mak, K. Leung, Y. Leung, and M. Meng, ``A survey of wireless sensor network based air pollution monitoring systems,'' \emph{Sensors}, vol. 15, pp. 31392--31427, Dec. 2015. doi: 10.3390
+\bibitem{mohindru_2023_development} P. Mohindru, ``Development of liquid level measurement technology: A review,'' \emph{Flow Measurement and Instrumentation}, vol. 89, p. 102295, Mar. 2023. doi: 10.1016/j.flowmeasinst.2022.102295.
+\bibitem{wu_2023_a} Z. Wu, Y. Huang, K. Huang, K. Yan, and H. Chen, ``A Review of Non-Contact Water Level Measurement Based on Computer Vision and Radar Technology,'' \emph{Water}, vol. 15, p. 3233, Jan. 2023. doi: 10.3390/w15183233.
+\bibitem{santana_2024_development} V. Santana, R. E. Salustiano, and R. Tiezzi, ``Development and Calibration of a Low-Cost LIDAR Sensor for Water Level Measurements,'' \emph{Flow Measurement and Instrumentation}, vol. 2024, pp. 102729--102729, Oct. 2024. doi: 10.1016/j.flowmeasinst.2024.102729.
+\bibitem{li_2022_a} N. Li, C. P. Ho, J. Xue, L. W. Lim, G. Chen, Y. H. Fu, and L. Y. T. Lee, 
+``A Progress Review on Solid-State LiDAR and Nanophotonics-Based LiDAR Sensors,'' 
+Laser and Photonics Reviews, vol. 16, p. 2100511, Aug. 2022. doi: 10.1002/lpor.202100511.
+\bibitem{mohammadrezamasoudimoghaddam_2024_a} M. MasoudiMoghaddam, J. Yazdi, and M. Shahsavandi, 
+``A Low-Cost Ultrasonic Sensor for Online Monitoring of Water Levels in Rivers and Channels,'' 
+Flow Measurement and Instrumentation, vol. 102, p. 102777, Dec. 2024. Elsevier BV. doi: 10.1016/j.flowmeasinst.2024.102777.
+\bibitem{paul_2020_a} J. D. Paul, W. Buytaert, and N. Sah, 
+``A Technical Evaluation of Lidar-Based Measurement of River Water Levels,'' 
+Water Resources Research, vol. 56, Apr. 2020. doi: 10.1029/2019wr026810.
+\bibitem{yukawa_2025_an} C. Yukawa, T. Oda, T. Sato, M. Hirota, K. Katayama, and L. Barolli, 
+``An Intelligent Water Level Estimation System Considering Water Level Device Gauge Image Recognition and Wireless Sensor Networks,'' 
+Journal of Sensor and Actuator Networks, vol. 14, p. 13, Jan. 2025. doi: 10.3390/jsan14010013.
+\bibitem{ferreira_2023_conception} Y. Ferreira, C. Silvério, and J. Viana, 
+``Conception and Design of WSN Sensor Nodes Based on Machine Learning, Embedded Systems and IoT Approaches for Pollutant Detection in Aquatic Environments,'' 
+IEEE Access, vol. 11, pp. 117040--117052, Jan. 2023. doi: 10.1109/access.2023.3325760.
+\bibitem{viscarrarossel_2016_soil} R. A. Viscarra Rossel and J. Bouma, 
+``Soil sensing: A new paradigm for agriculture,'' 
+Agricultural Systems, vol. 148, pp. 71--74, Oct. 2016. doi: 10.1016/j.agsy.2016.07.001.
+\bibitem{yin_2021_smart} H. Yin, Y. Cao, B. Marelli, X. Zeng, A. J. Mason, and C. Cao, 
+``Smart Agriculture Systems: Soil Sensors and Plant Wearables for Smart and Precision Agriculture (Adv. Mater. 20/2021),'' 
+Advanced Materials, vol. 33, p. 2170156, May 2021. doi: 10.1002/adma.202170156.
+\bibitem{deng_2020_novel} F. Deng, P. Zuo, K. Wen, and X. Wu, 
+``Novel soil environment monitoring system based on RFID sensor and LoRa,'' 
+Computers and Electronics in Agriculture, vol. 169, p. 105169, Feb. 2020. doi: 10.1016/j.compag.2019.105169.
+\bibitem{akhileshnagpure_2022_water} A. Nagpure, G. Reddy, and S. Naidu, 
+``Water Level Controller Using Ultrasonic Sensor,'' 
+International Journal for Research in Applied Science and Engineering Technology, vol. 10, pp. 242--257, Dec. 2022. 
+doi: 10.22214/ijraset.2022.47856.
+\bibitem{boada_2018_batteryless} M. Boada, A. Lazaro, R. Villarino, and D. Girbau, 
+``Battery-Less Soil Moisture Measurement System Based on a NFC Device With Energy Harvesting Capability,'' 
+IEEE Sensors Journal, vol. 18, pp. 5541--5549, Jul. 2018. 
+doi: 10.1109/jsen.2018.2837388.
+\bibitem{devkota_2017_saw} J. Devkota, P. Ohodnicki, and D. Greve, 
+``SAW Sensors for Chemical Vapors and Gases,'' 
+Sensors, vol. 17, p. 801, Apr. 2017. 
+doi: 10.3390/s17040801.
+\bibitem{karagulian_2019_review} F. Karagulian, M. Barbiere, A. Kotsev, L. Spinelle, M. Gerboles, F. Lagler, N. Redon, S. Crunaire, and A. Borowiak, 
+``Review of the Performance of Low-Cost Sensors for Air Quality Monitoring,'' 
+Atmosphere, vol. 10, p. 506, Aug. 2019. doi: 10.3390/atmos10090506.
+\bibitem{jiang_2024_monitoring} Z. Jiang and L. Hong, 
+``Monitoring of Surface Water Area and Water Level Changes in Nine Plateau Lakes in Yunnan and Analysis of Influencing Factors,'' 
+in *Proc. 2024 IEEE 6th Advanced Information Management, Communicates, Electronic and Automation Control Conf. (IMCEC)*, 
+pp. 1027--1031, May 2024. doi: 10.1109/imcec59810.2024.10575197.
+\bibitem{ali_2024_satellite} T. Ali, A. Zaidi, J. Rehman, F. Noor, F. Naz, and S. Jamali, 
+``Satellite Radar Altimetry Insights into Dam-Induced Changes and Accuracy of Water Level Estimation for the Mekong River,'' 
+in *Proc. IGARSS 2022 - IEEE Int. Geosci. Remote Sens. Symp.*, vol. 570, pp. 5063--5066, Jul. 2024. 
+doi: 10.1109/igarss53475.2024.10642418.
+\bibitem{tamari_2016_flash} S. Tamari and V. Guerrero-Meza, 
+``Flash Flood Monitoring with an Inclined Lidar Installed at a River Bank: Proof of Concept,'' 
+Remote Sensing, vol. 8, p. 834, Oct. 2016. doi: 10.3390/rs8100834.
+\bibitem{pereira_2022_evaluation} T. S. R. Pereira, T. P. de Carvalho, T. A. Mendes, and K. T. M. Formiga, 
+``Evaluation of Water Level in Flowing Channels Using Ultrasonic Sensors,'' 
+Sustainability, vol. 14, p. 5512, May 2022. doi: 10.3390/su14095512.
+\bibitem{bresnahan_2023_a} P. Bresnahan, E. Briggs, B. Davis, A. Rodriguez, L. Edwards, C. Peach, N. Renner, H. Helling, and M. Merrifield, 
+``A Low-Cost, DIY Ultrasonic Water Level Sensor for Education, Citizen Science, and Research,'' 
+Oceanography, vol. 36, 2023. doi: 10.5670/oceanog.2023.101.
+\bibitem{behroozpour_2017_lidar} B. Behroozpour, P. A. M. Sandborn, M. C. Wu, and B. E. Boser, 
+``Lidar System Architectures and Circuits,'' 
+IEEE Communications Magazine, vol. 55, pp. 135--142, Oct. 2017. doi: 10.1109/mcom.2017.1700030.
+\bibitem{fernandezdiaz_2014_early} J. C. Fernandez-Diaz, C. L. Glennie, W. E. Carter, R. L. Shrestha, M. P. Sartori, A. Singhania, C. J. Legleiter, and B. T. Overstreet, 
+``Early Results of Simultaneous Terrain and Shallow Water Bathymetry Mapping Using a Single-Wavelength Airborne LiDAR Sensor,'' 
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, pp. 623--635, Feb. 2014. 
+doi: 10.1109/jstars.2013.2265255.
+\bibitem{smart_2009_river} G. Smart, J. Bind, and M. Duncan, 
+``River bathymetry from conventional LiDAR using water surface returns,'' 
+in *Proc. 18th World IMACS / MODSIM Congress*, 2009. [Online]. Available: https://mssanz.org.au/modsim09/F13/smart.pdf
+\bibitem{ali_2020_saw} S. F. Ali, N. Mandal, P. Maurya, and A. Lata, 
+``SAW Sensor Based a Novel Hydrostatic Liquid Level Measurement,'' 
+in *Proc. IECON 2020 - 46th Annual Conf. IEEE Industrial Electronics Society*, pp. 724--729, Oct. 2020. 
+doi: 10.1109/iecon43393.2020.9254540.
+\bibitem{sreejith_2024_modeling} V. S. Sreejith and H. Zhang, 
+``Modeling and Testing of a Highly Sensitive Surface Acoustic Wave Pressure Sensor for Liquid Depth Measurements,'' 
+Sensors and Actuators A: Physical, vol. 372, p. 115377, Jul. 2024. doi: 10.1016/j.sna.2024.115377.
+\bibitem{ramos_2025_high} C. C. Ramos, J. Preizal, X. Hu, C. Caucheteur, G. Woyessa, O. Bang, A. M. Rocha, and R. Oliveira, 
+``High Resolution Liquid Level Sensor Based on Archimedes’ Law of Buoyancy Using Polymer Optical Fiber Bragg Gratings,'' 
+Measurement, vol. 252, p. 117368, Mar. 2025. Elsevier BV. doi: 10.1016/j.measurement.2025.117368.
+\bibitem{jonkman_2005_global} S. N. Jonkman, 
+``Global Perspectives on Loss of Human Life Caused by Floods,'' 
+Natural Hazards, vol. 34, pp. 151--175, Feb. 2005. doi: 10.1007/s11069-004-8891-3.
+\bibitem{borga_2014_hydrogeomorphic} M. Borga, M. Stoffel, L. Marchi, F. Marra, and M. Jakob, 
+``Hydrogeomorphic Response to Extreme Rainfall in Headwater Systems: Flash Floods and Debris Flows,'' 
+Journal of Hydrology, vol. 518, pp. 194--205, Oct. 2014. doi: 10.1016/j.jhydrol.2014.05.022.
+\bibitem{hall_2014_understanding} J. Hall \textit{et al.}, 
+``Understanding Flood Regime Changes in Europe: A State-of-the-Art Assessment,'' 
+Hydrology and Earth System Sciences, vol. 18, pp. 2735--2772, Jul. 2014. doi: 10.5194/hess-18-2735-2014.
+\bibitem{bragana_2024_anlise} C. G. J. F. N. Bragança, 
+``Análise da Influência dos Fenômenos El Niño e La Niña na Ocorrência de Eventos Climáticos de Seca e Enchente,'' 
+Dissertação de Mestrado, 2024.
+\bibitem{iqbal_2021_how} U. Iqbal, P. Perez, W. Li, and J. Barthelemy, 
+``How Computer Vision Can Facilitate Flood Management: A Systematic Review,'' 
+International Journal of Disaster Risk Reduction, vol. 53, p. 102030, Feb. 2021. doi: 10.1016/j.ijdrr.2020.102030.
+\bibitem{lin_2020_semantic} F. Lin, Z. Yu, Q. Jin, and A. You, 
+``Semantic Segmentation and Scale Recognition–Based Water-Level Monitoring Algorithm,'' 
+Journal of Coastal Research, vol. 105, 2020. doi: 10.2112/jcr-si105-039.1.
+\bibitem{lo_2015_visual} S.-W. Lo, J.-H. Wu, F.-P. Lin, and C.-H. Hsu, 
+``Visual Sensing for Urban Flood Monitoring,'' 
+Sensors, vol. 15, pp. 20006--20029, Aug. 2015. doi: 10.3390/s150820006.
+\bibitem{chen_2013_natural} D. Chen, Z. Liu, L. Wang, M. Dou, J. Chen, and H. Li, 
+``Natural Disaster Monitoring with Wireless Sensor Networks: A Case Study of Data-Intensive Applications upon Low-Cost Scalable Systems,'' 
+Mobile Networks and Applications, vol. 18, pp. 651--663, Aug. 2013. doi: 10.1007/s11036-013-0456-9.
+
+\bibitem{yellampalli_2021_wireless} S. Yellampalli, Ed., 
+*Wireless Sensor Networks – Design, Deployment and Applications*, IntechOpen, Sep. 2021. doi: 10.5772/intechopen.77917. [Online]. Available: https://www.intechopen.com/books/8086
+
+\bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
+``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
+Journal of Applied Research and Technology, vol. 15, pp. 562--570, Dec. 2017. doi: 10.1016/j.jart.2017.07.004.
+
+\bibitem{nr_2025_ai} W. B. N.R, S. Palarimath, H. Gunasekaran, S. W. Haidar, S. G. S. Subitha, and J. Sarmila, 
+``AI Modeling and Water Quality Sensing Technique Proffers Water Security: An Open Review,'' 
+in *Proc. 2022 Int. Conf. Electronics and Renewable Systems (ICEARS)*, pp. 1028--1034, Feb. 2025. doi: 10.1109/icears64219.2025.10940077.
+
+\bibitem{mukhopadhyay_2021_artificial} S. C. Mukhopadhyay, S. K. S. Tyagi, N. K. Suryadevara, V. Piuri, F. Scotti, and S. Zeadally, 
+``Artificial Intelligence-Based Sensors for Next Generation IoT Applications: A Review,'' 
+IEEE Sensors Journal, vol. 21, pp. 1--1, 2021. doi: 10.1109/jsen.2021.3055618.
+
+\bibitem{teng_2014_soil} Y. Teng, J. Wu, S. Lu, Y. Wang, X. Jiao, and L. Song, 
+``Soil and Soil Environmental Quality Monitoring in China: A Review,'' 
+Environment International, vol. 69, pp. 177--199, Aug. 2014. doi: 10.1016/j.envint.2014.04.014.
+
+\bibitem{queiroz_2020_sensors} D. M. de Queiroz, A. L. de F. Coelho, D. S. M. Valente, and J. K. Schueller, 
+``Sensors Applied to Digital Agriculture: A Review,'' 
+Revista Ciência Agronômica, vol. 51, 2020. doi: 10.5935/1806-6690.20200086.
+
+ \end{thebibliography}
+ \vspace{12pt}
+ \color{red}
+
+IS REF VALID? ------  C. G. J. F. N. Braganc¸a, “An´alise da Influˆencia dos Fenˆomenos El Ni˜no
+e La Ni˜na na Ocorrˆencia de Eventos Clim´aticos de Seca e Enchente,”
+Dissertac¸ ˜ao de Mestrado, 2024.  
+% IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+
 
 \end{document}
