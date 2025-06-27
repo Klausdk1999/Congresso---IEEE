@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  25 JUN 2025 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  26 JUN 2025 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,12 +271,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -291,48 +291,43 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 114.
- (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 3088) in paragraph at lines 116--117
-[]\OT1/ptm/m/n/10 Historically, agri-cul-tural man-age-ment rec-om-men-da-tions
- []
-
-
 
 
 
 [3]
 
+LaTeX Warning: Citation `apostolos_2024_security' on page 4 undefined on input line 166.
 
-Underfull \hbox (badness 3557) in paragraph at lines 349--352
+
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 380--383
 \OT1/ptm/m/n/8 ven-tional Li-DAR us-ing wa-ter sur-face re-turns,'' in *Proc. 18th
  []
 
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 []\OT1/ptm/m/n/8 S. Yel-lam-palli, Ed., *Wire-less Sen-sor Net-works { De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 \OT1/ptm/m/n/8 sign, De-ploy-ment and Ap-pli-ca-tions*, In-te-chOpen, Sep.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 \OT1/ptm/m/n/8 2021. doi: 10.5772/in-te-chopen.77917. [On-line]. Avail-able:
  []
 
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 414.
+            Default family used instead on input line 461.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 415.
+            Default family used instead on input line 462.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -355,17 +350,21 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 4278 strings out of 473200
- 66495 string characters out of 5720279
- 487157 words of memory out of 5000000
- 27485 multiletter control sequences out of 15000+600000
- 601748 words of font info for 126 fonts, out of 8000000 for 9000
+ 4240 strings out of 473200
+ 66069 string characters out of 5720279
+ 487294 words of memory out of 5000000
+ 27458 multiletter control sequences out of 15000+600000
+ 597813 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1181b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1184b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (5 pages, 111737 bytes).
+Output written on conference_101719.pdf (5 pages, 113577 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
