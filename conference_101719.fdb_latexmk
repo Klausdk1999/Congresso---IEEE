@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1751072044.25069 "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1751072045.0489 0
+["pdflatex"] 1751072564.48752 "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1751072565.24508 0
   "IEEEtran.cls" 1750813938 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" 1751072043 51408 a7e74d0c677102f14f8a86e5e406c7e9 ""
+  "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" 1751072562 52473 6274eb6e95090c14ef814a35a925510d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741047798 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1741048570 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1741054685 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -79,8 +79,8 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741055342 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1741055527 3352824 127e4e119ca57e98101e0f88a5295980 ""
   "c:/texlive/2024/texmf.cnf" 1741055327 713 e69b156964470283e0530f5060668171 ""
-  "conference_101719.aux" 1751072044 4989 9fbd7c2b20363a0bcaad53b6f64d9936 "pdflatex"
-  "conference_101719.tex" 1751072043 51408 a7e74d0c677102f14f8a86e5e406c7e9 ""
+  "conference_101719.aux" 1751072565 4989 6df4d8977d6134872f5342f04126094e "pdflatex"
+  "conference_101719.tex" 1751072562 52473 6274eb6e95090c14ef814a35a925510d ""
   (generated)
   "conference_101719.aux"
   "conference_101719.log"
