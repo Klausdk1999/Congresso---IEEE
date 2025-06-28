@@ -64,13 +64,14 @@ Internet of Things (IoT), Environment, Sensors, Wireless Sensor Networks (WSN), 
 \end{IEEEkeywords}
 
 \section{Introduction}
-The increasing urbanization and climate change have diverse impacts on different layers of society, threatening individuals in vulnerable situations during disasters such as floods, or affecting agricultural production due to climatic variations \cite{jonkman_2005_global, hall_2014_understanding, bragana_2024_anlise, borga_2014_hydrogeomorphic}. These phenomena highlight the need for effective monitoring systems that can provide more data on environmental conditions and help us monitor, analyze, and predict such events \cite{hall_2014_understanding, lin_2020_semantic, lo_2015_visual, iqbal_2021_how}.
-
-When we talk about environmental monitoring, we refer to a wide range of applications and devices. Particularly in remote and hard-to-reach areas, this represents a significant technical challenge. The vastness of these territories, combined with adverse environmental conditions and the growing demand for real-time data, requires technological solutions that are robust, cost-effective, and scalable \cite{chen_2013_natural, yellampalli_2021_wireless, pule_2017_wireless}.
+%borga_2014_hydrogeomorphic, bragana_2024_anlise lin_2020_semantic, lo_2015_visual,
+The increasing urbanization and climate change have diverse impacts on different layers of society, threatening individuals in vulnerable situations during disasters such as floods, or affecting agricultural production due to climatic variations \cite{jonkman_2005_global, hall_2014_understanding}. These phenomena highlight the need for effective monitoring systems that can provide more data on environmental conditions and help us monitor, analyze, and predict such events \cite{hall_2014_understanding, iqbal_2021_how}.
+% pule_2017_wireless
+When we talk about environmental monitoring, we refer to a wide range of applications and devices. Particularly in remote and hard-to-reach areas, this represents a significant technical challenge. The vastness of these territories, combined with adverse environmental conditions and the growing demand for real-time data, requires technological solutions that are robust, cost-effective, and scalable \cite{chen_2013_natural, yellampalli_2021_wireless }.
 
 This literature review is structured into five main sections. First, it addresses the sensors and technologies used in environmental monitoring, categorizing them according to their application domains (hydrological, soil, and air quality). Next, the role of Wireless Sensor Networks and associated communication technologies is discussed. Then, the main challenges and current trends in the field of environmental monitoring are presented, focusing on technological innovations. Finally, conclusions and future perspectives are outlined.
-
-Although previous reviews have thoroughly examined sensors for soil monitoring, such as those by \cite{yin_2021_smart, teng_2014_soil, queiroz_2020_sensors}, or water level measurement techniques as in \cite{mohindru_2023_development, nr_2025_ai, wu_2023_a}, there is a notable lack of recent studies that comprehensively integrate both sensor technologies and communication infrastructures, presenting emerging concepts in environmental monitoring and going beyond specific applications.
+% teng_2014_soil
+Although previous reviews have thoroughly examined sensors for soil monitoring, such as those by \cite{yin_2021_smart , queiroz_2020_sensors}, or water level measurement techniques as in \cite{mohindru_2023_development, nr_2025_ai, wu_2023_a}, there is a notable lack of recent studies that comprehensively integrate both sensor technologies and communication infrastructures, presenting emerging concepts in environmental monitoring and going beyond specific applications.
 
 This review aims to fill that gap by offering a broad perspective that covers sensor technologies applied to the monitoring of soil, water, and/or air/chemical compounds, along with an analysis of wireless communication technologies, energy efficiency strategies, artificial intelligence and security challenges in WSN deployments for environmental monitoring. The main contribution of this work is to consolidate multidisciplinary advances, highlight underexplored technologies, and provide a comparative analysis to guide future research and applications in the development of environmental monitoring projects.
 
@@ -87,8 +88,8 @@ Simple methods for monitoring water levels, such as marked rulers or staff gauge
 For non-contact monitoring applications, this review highlights three approaches: ultrasonic sensors, LiDAR sensors, and remote monitoring via satellite imagery.
 
 Ultrasonic water level sensors emit sound waves and measure the time it takes for the waves to return to the sensor. These sensors are widely used due to their accuracy and ability to operate in environments with temperature and pressure variations \cite{mohammadrezamasoudimoghaddam_2024_a, pereira_2022_evaluation}. For example, the ultrasonic sensor model GY-Us42 was tested, showing that the average error of the device is less than 3\% \cite{mohammadrezamasoudimoghaddam_2024_a}. Another model, the HC-SR04, was also evaluated as a technically and economically viable option for water level monitoring \cite{pereira_2022_evaluation}, and is a good choice for education, citizen science, and research due to its low cost \cite{bresnahan_2023_a}.
-
-LiDAR sensors use optical waves to measure distances and are widely used in metrology, environmental monitoring, archaeology, and robotics \cite{behroozpour_2017_lidar, li_2022_a}.
+ %behroozpour_2017_lidar
+LiDAR sensors use optical waves to measure distances and are widely used in metrology, environmental monitoring, archaeology, and robotics \cite{ li_2022_a}.
 These sensors have been explored as a low-cost alternative for measuring water levels from bridges, with lab and field tests showing good accuracy (error around 0.1\%), though subject to variations due to sensor temperature and water surface roughness \cite{paul_2020_a}. LiDAR sensors installed on riverbanks for flood monitoring were also tested with good results, the study showed that suspended particles in the water positively affected reading accuracy and that the sensor could also be used to detect suspended particle concentration \cite{tamari_2016_flash}. Another study compared the TF-mini LiDAR sensor with limnigraph pressure sensors, highlighting the benefits of LiDAR’s non-contact measurement method over the contact-based limnigraph method and validating LiDAR as an excellent choice among fluid level measurement technologies \cite{santana_2024_development}.
 
 Another method for monitoring water levels in open environments is the use of satellite-based remote sensing. The work \cite{jiang_2024_monitoring} employed a multi-source remote sensing data fusion method via Google Earth Engine to estimate surface water area and water level changes in nine plateau lakes in Yunnan, China, between 2003 and 2022. Their results showed high consistency with in-situ measurements, with deviations under 0.3 meters, and highlighted the influence of climate variability and human activities on lake dynamics. Similarly, \cite{ali_2024_satellite} used Sentinel-3A radar altimetry to assess the impact of dam operations on water levels in the Mekong River basin, validating satellite-derived levels with in-situ telemetry data and achieving a correlation of 0.98. Both studies confirm the viability and accuracy of satellite altimetry and image-based techniques for long-term and large-scale water level monitoring, especially in remote or transboundary regions.
@@ -164,12 +165,6 @@ Subsequent studies have demonstrated the long-term efficiency of beat sensors in
 The integration of Artificial Intelligence (AI) into Internet of Things (IoT) systems, referred to as AIoT, has enabled smarter, more autonomous applications across fields like smart cities, industry, and environmental monitoring. The work \cite{ghosh_2018_artificial} describe this evolution as part of a broader shift toward cyber-physical systems, where embedded devices, humans, and the environment interact to form intelligent systems. AI enhances the capability of IoT by enabling real-time analysis, predictive decision-making, and self-adaptive behavior. However, this convergence also raises challenges, including data security, ethical concerns, and the complexity of system integration.
 
 The work of \cite{mukhopadhyay_2021_artificial} emphasize the growing use of AI-enabled sensors that are context-aware, reliable, and efficient. These sensors reduce energy use, improve response time, and support applications like predictive maintenance and smart routing. In the environmental domain, \cite{ferreira_2023_conception} apply this concept in a wireless sensor node that classifies aquatic pollutants using embedded neural networks and distributed processing. Similarly, \cite{nr_2025_ai} review the use of AI in water quality analysis, discussing its potential to improve detection accuracy and response speed while noting limitations related to data availability and transparency.
-
-% \subsection{Security and Privacy Challenges}
-
-% The growing ubiquity of embedded systems within IoT architectures poses significant security challenges, especially as these systems increasingly handle real-time sensing, processing, and decision-making in sensitive contexts. As shown in recent work, embedded systems now underpin critical applications that directly affect physical environments and human safety, thus making their security, reliability, and resilience essential aspects of system design and operation \cite{koulamas_2018_realtime}. Unlike traditional IT systems, embedded devices often lack robust runtime protections, and their constrained nature frequently leads to security being treated as an afterthought in the design process \cite{pimentel_2017_exploring}. The cascading effect of a single compromised device within an IoT network can jeopardize an entire system, emphasizing the need for comprehensive security strategies at both device and network levels \cite{tien_2017_internet}. Consequently, real-time embedded system architectures must prioritize integrated security mechanisms early in the design flow to reduce the attack surface, especially in edge processing scenarios where data transmission is minimized for both efficiency and security \cite{koulamas_2018_realtime}.
-
-% Beyond software vulnerabilities, hardware-level attacks are becoming a major concern in embedded IoT environments. Recent research has revealed a class of microarchitectural attacks that exploit hardware design flaws, capable of circumventing software-level protections and undermining trust-enhancing technologies \cite{fournaris_2017_exploiting}. These low-level threats are particularly dangerous due to their stealthy nature and the lack of sufficient countermeasures from hardware vendors. Middleware, which connects heterogeneous embedded systems in complex IoT environments, can be an especially vulnerable point if underlying hardware is exposed to such attacks. The need for embedded system manufacturers to proactively provide security patches and adopt secure-by-design principles has never been more urgent. As emphasized in the literature, system architects must be aware of the evolving taxonomy of hardware attacks and incorporate defense mechanisms across the entire stack, from microarchitecture to application layer, to ensure end-to-end IoT security \cite{fournaris_2017_exploiting, pimentel_2017_exploring}.
 
 \subsection{Security and Privacy Challenges}
 
@@ -323,8 +318,29 @@ G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor
 acknowledgments in the unnumbered footnote on the first page.
 
 \begin{thebibliography}{00}
-    
-\bibitem{javaid_2021_sensors} M. Javaid, A. Haleem, S. Rab, R. P. Singh, and R. Suman, ``Sensors for daily life: A review,'' \emph{Sensors International}, vol. 2, p. 100121, 2021. doi: 10.1016/j.sintl.2021.100121.
+
+\bibitem{jonkman_2005_global} S. N. Jonkman, 
+``Global Perspectives on Loss of Human Life Caused by Floods,'' 
+Natural Hazards, vol. 34, pp. 151--175, Feb. 2005. doi: 10.1007/s11069-004-8891-3.
+
+% \bibitem{borga_2014_hydrogeomorphic} M. Borga, M. Stoffel, L. Marchi, F. Marra, and M. Jakob, 
+% ``Hydrogeomorphic Response to Extreme Rainfall in Headwater Systems: Flash Floods and Debris Flows,'' 
+% Journal of Hydrology, vol. 518, pp. 194--205, Oct. 2014. doi: 10.1016/j.jhydrol.2014.05.022.
+\bibitem{hall_2014_understanding} J. Hall \textit{et al.}, 
+``Understanding Flood Regime Changes in Europe: A State-of-the-Art Assessment,'' 
+Hydrology and Earth System Sciences, vol. 18, pp. 2735--2772, Jul. 2014. doi: 10.5194/hess-18-2735-2014.
+% \bibitem{bragana_2024_anlise} C. G. J. F. N. Bragança, 
+% ``Análise da Influência dos Fenômenos El Niño e La Niña na Ocorrência de Eventos Climáticos de Seca e Enchente,'' 
+% Dissertação de Mestrado, 2024.% \bibitem{borga_2014_hydrogeomorphic} M. Borga, M. Stoffel, L. Marchi, F. Marra, and M. Jakob, 
+% ``Hydrogeomorphic Response to Extreme Rainfall in Headwater Systems: Flash Floods and Debris Flows,'' 
+% Journal of Hydrology, vol. 518, pp. 194--205, Oct. 2014. doi: 10.1016/j.jhydrol.2014.05.022.
+\bibitem{hall_2014_understanding} J. Hall \textit{et al.}, 
+``Understanding Flood Regime Changes in Europe: A State-of-the-Art Assessment,'' 
+Hydrology and Earth System Sciences, vol. 18, pp. 2735--2772, Jul. 2014. doi: 10.5194/hess-18-2735-2014.
+% \bibitem{bragana_2024_anlise} C. G. J. F. N. Bragança, 
+% ``Análise da Influência dos Fenômenos El Niño e La Niña na Ocorrência de Eventos Climáticos de Seca e Enchente,'' 
+% Dissertação de Mestrado, 2024.
+% \bibitem{javaid_2021_sensors} M. Javaid, A. Haleem, S. Rab, R. P. Singh, and R. Suman, ``Sensors for daily life: A review,'' \emph{Sensors International}, vol. 2, p. 100121, 2021. doi: 10.1016/j.sintl.2021.100121.
 \bibitem{yi_2015_a} W. Yi, K. Lo, T. Mak, K. Leung, Y. Leung, and M. Meng, ``A survey of wireless sensor network based air pollution monitoring systems,'' \emph{Sensors}, vol. 15, pp. 31392--31427, Dec. 2015. doi: 10.3390
 \bibitem{mohindru_2023_development} P. Mohindru, ``Development of liquid level measurement technology: A review,'' \emph{Flow Measurement and Instrumentation}, vol. 89, p. 102295, Mar. 2023. doi: 10.1016/j.flowmeasinst.2022.102295.
 \bibitem{wu_2023_a} Z. Wu, Y. Huang, K. Huang, K. Yan, and H. Chen, ``A Review of Non-Contact Water Level Measurement Based on Computer Vision and Radar Technology,'' \emph{Water}, vol. 15, p. 3233, Jan. 2023. doi: 10.3390/w15183233.
@@ -338,29 +354,31 @@ Flow Measurement and Instrumentation, vol. 102, p. 102777, Dec. 2024. Elsevier B
 \bibitem{paul_2020_a} J. D. Paul, W. Buytaert, and N. Sah, 
 ``A Technical Evaluation of Lidar-Based Measurement of River Water Levels,'' 
 Water Resources Research, vol. 56, Apr. 2020. doi: 10.1029/2019wr026810.
-\bibitem{yukawa_2025_an} C. Yukawa, T. Oda, T. Sato, M. Hirota, K. Katayama, and L. Barolli, 
-``An Intelligent Water Level Estimation System Considering Water Level Device Gauge Image Recognition and Wireless Sensor Networks,'' 
-Journal of Sensor and Actuator Networks, vol. 14, p. 13, Jan. 2025. doi: 10.3390/jsan14010013.
+% \bibitem{yukawa_2025_an} C. Yukawa, T. Oda, T. Sato, M. Hirota, K. Katayama, and L. Barolli, 
+% ``An Intelligent Water Level Estimation System Considering Water Level Device Gauge Image Recognition and Wireless Sensor Networks,'' 
+%Journal of Sensor and Actuator Networks, vol. 14, p. 13, Jan. 2025. doi: 10.3390/jsan14010013.
 \bibitem{ferreira_2023_conception} Y. Ferreira, C. Silvério, and J. Viana, 
 ``Conception and Design of WSN Sensor Nodes Based on Machine Learning, Embedded Systems and IoT Approaches for Pollutant Detection in Aquatic Environments,'' 
 IEEE Access, vol. 11, pp. 117040--117052, Jan. 2023. doi: 10.1109/access.2023.3325760.
-\bibitem{viscarrarossel_2016_soil} R. A. Viscarra Rossel and J. Bouma, 
-``Soil sensing: A new paradigm for agriculture,'' 
-Agricultural Systems, vol. 148, pp. 71--74, Oct. 2016. doi: 10.1016/j.agsy.2016.07.001.
+% \bibitem{viscarrarossel_2016_soil} R. A. Viscarra Rossel and J. Bouma, 
+% ``Soil sensing: A new paradigm for agriculture,'' 
+% Agricultural Systems, vol. 148, pp. 71--74, Oct. 2016. doi: 10.1016/j.agsy.2016.07.001.
 \bibitem{yin_2021_smart} H. Yin, Y. Cao, B. Marelli, X. Zeng, A. J. Mason, and C. Cao, 
 ``Smart Agriculture Systems: Soil Sensors and Plant Wearables for Smart and Precision Agriculture (Adv. Mater. 20/2021),'' 
 Advanced Materials, vol. 33, p. 2170156, May 2021. doi: 10.1002/adma.202170156.
 \bibitem{deng_2020_novel} F. Deng, P. Zuo, K. Wen, and X. Wu, 
 ``Novel soil environment monitoring system based on RFID sensor and LoRa,'' 
 Computers and Electronics in Agriculture, vol. 169, p. 105169, Feb. 2020. doi: 10.1016/j.compag.2019.105169.
-\bibitem{akhileshnagpure_2022_water} A. Nagpure, G. Reddy, and S. Naidu, 
-``Water Level Controller Using Ultrasonic Sensor,'' 
-International Journal for Research in Applied Science and Engineering Technology, vol. 10, pp. 242--257, Dec. 2022. 
-doi: 10.22214/ijraset.2022.47856.
-\bibitem{boada_2018_batteryless} M. Boada, A. Lazaro, R. Villarino, and D. Girbau, 
-``Battery-Less Soil Moisture Measurement System Based on a NFC Device With Energy Harvesting Capability,'' 
-IEEE Sensors Journal, vol. 18, pp. 5541--5549, Jul. 2018. 
-doi: 10.1109/jsen.2018.2837388.
+% \bibitem{akhileshnagpure_2022_water} A. Nagpure, G. Reddy, and S. Naidu, 
+% ``Water Level Controller Using Ultrasonic Sensor,'' 
+% International Journal for Research in Applied Science and Engineering Technology, vol. 10, pp. 242--257, Dec. 2022. 
+% doi: 10.22214/ijraset.2022.47856.
+\bibitem{tamari_2016_flash} S. Tamari and V. Guerrero-Meza, 
+``Flash Flood Monitoring with an Inclined Lidar Installed at a River Bank: Proof of Concept,'' 
+Remote Sensing, vol. 8, p. 834, Oct. 2016. doi: 10.3390/rs8100834.
+\bibitem{pereira_2022_evaluation} T. S. R. Pereira, T. P. de Carvalho, T. A. Mendes, and K. T. M. Formiga, 
+``Evaluation of Water Level in Flowing Channels Using Ultrasonic Sensors,'' 
+Sustainability, vol. 14, p. 5512, May 2022. doi: 10.3390/su14095512.
 \bibitem{devkota_2017_saw} J. Devkota, P. Ohodnicki, and D. Greve, 
 ``SAW Sensors for Chemical Vapors and Gases,'' 
 Sensors, vol. 17, p. 801, Apr. 2017. 
@@ -376,25 +394,24 @@ pp. 1027--1031, May 2024. doi: 10.1109/imcec59810.2024.10575197.
 ``Satellite Radar Altimetry Insights into Dam-Induced Changes and Accuracy of Water Level Estimation for the Mekong River,'' 
 in *Proc. IGARSS 2022 - IEEE Int. Geosci. Remote Sens. Symp.*, vol. 570, pp. 5063--5066, Jul. 2024. 
 doi: 10.1109/igarss53475.2024.10642418.
-\bibitem{tamari_2016_flash} S. Tamari and V. Guerrero-Meza, 
-``Flash Flood Monitoring with an Inclined Lidar Installed at a River Bank: Proof of Concept,'' 
-Remote Sensing, vol. 8, p. 834, Oct. 2016. doi: 10.3390/rs8100834.
-\bibitem{pereira_2022_evaluation} T. S. R. Pereira, T. P. de Carvalho, T. A. Mendes, and K. T. M. Formiga, 
-``Evaluation of Water Level in Flowing Channels Using Ultrasonic Sensors,'' 
-Sustainability, vol. 14, p. 5512, May 2022. doi: 10.3390/su14095512.
+
 \bibitem{bresnahan_2023_a} P. Bresnahan, E. Briggs, B. Davis, A. Rodriguez, L. Edwards, C. Peach, N. Renner, H. Helling, and M. Merrifield, 
 ``A Low-Cost, DIY Ultrasonic Water Level Sensor for Education, Citizen Science, and Research,'' 
 Oceanography, vol. 36, 2023. doi: 10.5670/oceanog.2023.101.
-\bibitem{behroozpour_2017_lidar} B. Behroozpour, P. A. M. Sandborn, M. C. Wu, and B. E. Boser, 
-``Lidar System Architectures and Circuits,'' 
-IEEE Communications Magazine, vol. 55, pp. 135--142, Oct. 2017. doi: 10.1109/mcom.2017.1700030.
-\bibitem{fernandezdiaz_2014_early} J. C. Fernandez-Diaz, C. L. Glennie, W. E. Carter, R. L. Shrestha, M. P. Sartori, A. Singhania, C. J. Legleiter, and B. T. Overstreet, 
-``Early Results of Simultaneous Terrain and Shallow Water Bathymetry Mapping Using a Single-Wavelength Airborne LiDAR Sensor,'' 
-IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, pp. 623--635, Feb. 2014. 
-doi: 10.1109/jstars.2013.2265255.
-\bibitem{smart_2009_river} G. Smart, J. Bind, and M. Duncan, 
-``River bathymetry from conventional LiDAR using water surface returns,'' 
-in *Proc. 18th World IMACS / MODSIM Congress*, 2009. [Online]. Available: https://mssanz.org.au/modsim09/F13/smart.pdf
+% \bibitem{behroozpour_2017_lidar} B. Behroozpour, P. A. M. Sandborn, M. C. Wu, and B. E. Boser, 
+% ``Lidar System Architectures and Circuits,'' 
+% IEEE Communications Magazine, vol. 55, pp. 135--142, Oct. 2017. doi: 10.1109/mcom.2017.1700030.
+% \bibitem{fernandezdiaz_2014_early} J. C. Fernandez-Diaz, C. L. Glennie, W. E. Carter, R. L. Shrestha, M. P. Sartori, A. Singhania, C. J. Legleiter, and B. T. Overstreet, 
+% ``Early Results of Simultaneous Terrain and Shallow Water Bathymetry Mapping Using a Single-Wavelength Airborne LiDAR Sensor,'' 
+% IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, pp. 623--635, Feb. 2014. 
+% doi: 10.1109/jstars.2013.2265255.
+% \bibitem{smart_2009_river} G. Smart, J. Bind, and M. Duncan, 
+% ``River bathymetry from conventional LiDAR using water surface returns,'' 
+% in *Proc. 18th World IMACS / MODSIM Congress*, 2009. [Online]. Available: https://mssanz.org.au/modsim09/F13/smart.pdf
+\bibitem{boada_2018_batteryless} M. Boada, A. Lazaro, R. Villarino, and D. Girbau, 
+``Battery-Less Soil Moisture Measurement System Based on a NFC Device With Energy Harvesting Capability,'' 
+IEEE Sensors Journal, vol. 18, pp. 5541--5549, Jul. 2018. 
+doi: 10.1109/jsen.2018.2837388.
 \bibitem{ali_2020_saw} S. F. Ali, N. Mandal, P. Maurya, and A. Lata, 
 ``SAW Sensor Based a Novel Hydrostatic Liquid Level Measurement,'' 
 in *Proc. IECON 2020 - 46th Annual Conf. IEEE Industrial Electronics Society*, pp. 724--729, Oct. 2020. 
@@ -405,27 +422,17 @@ Sensors and Actuators A: Physical, vol. 372, p. 115377, Jul. 2024. doi: 10.1016/
 \bibitem{ramos_2025_high} C. C. Ramos, J. Preizal, X. Hu, C. Caucheteur, G. Woyessa, O. Bang, A. M. Rocha, and R. Oliveira, 
 ``High Resolution Liquid Level Sensor Based on Archimedes’ Law of Buoyancy Using Polymer Optical Fiber Bragg Gratings,'' 
 Measurement, vol. 252, p. 117368, Mar. 2025. Elsevier BV. doi: 10.1016/j.measurement.2025.117368.
-\bibitem{jonkman_2005_global} S. N. Jonkman, 
-``Global Perspectives on Loss of Human Life Caused by Floods,'' 
-Natural Hazards, vol. 34, pp. 151--175, Feb. 2005. doi: 10.1007/s11069-004-8891-3.
-\bibitem{borga_2014_hydrogeomorphic} M. Borga, M. Stoffel, L. Marchi, F. Marra, and M. Jakob, 
-``Hydrogeomorphic Response to Extreme Rainfall in Headwater Systems: Flash Floods and Debris Flows,'' 
-Journal of Hydrology, vol. 518, pp. 194--205, Oct. 2014. doi: 10.1016/j.jhydrol.2014.05.022.
-\bibitem{hall_2014_understanding} J. Hall \textit{et al.}, 
-``Understanding Flood Regime Changes in Europe: A State-of-the-Art Assessment,'' 
-Hydrology and Earth System Sciences, vol. 18, pp. 2735--2772, Jul. 2014. doi: 10.5194/hess-18-2735-2014.
-\bibitem{bragana_2024_anlise} C. G. J. F. N. Bragança, 
-``Análise da Influência dos Fenômenos El Niño e La Niña na Ocorrência de Eventos Climáticos de Seca e Enchente,'' 
-Dissertação de Mestrado, 2024.
+
 \bibitem{iqbal_2021_how} U. Iqbal, P. Perez, W. Li, and J. Barthelemy, 
 ``How Computer Vision Can Facilitate Flood Management: A Systematic Review,'' 
 International Journal of Disaster Risk Reduction, vol. 53, p. 102030, Feb. 2021. doi: 10.1016/j.ijdrr.2020.102030.
-\bibitem{lin_2020_semantic} F. Lin, Z. Yu, Q. Jin, and A. You, 
-``Semantic Segmentation and Scale Recognition–Based Water-Level Monitoring Algorithm,'' 
-Journal of Coastal Research, vol. 105, 2020. doi: 10.2112/jcr-si105-039.1.
-\bibitem{lo_2015_visual} S.-W. Lo, J.-H. Wu, F.-P. Lin, and C.-H. Hsu, 
-``Visual Sensing for Urban Flood Monitoring,'' 
-Sensors, vol. 15, pp. 20006--20029, Aug. 2015. doi: 10.3390/s150820006.
+% \bibitem{lin_2020_semantic} F. Lin, Z. Yu, Q. Jin, and A. You, 
+% ``Semantic Segmentation and Scale Recognition–Based Water-Level Monitoring Algorithm,'' 
+% Journal of Coastal Research, vol. 105, 2020. doi: 10.2112/jcr-si105-039.1.
+% \bibitem{lo_2015_visual} S.-W. Lo, J.-H. Wu, F.-P. Lin, and C.-H. Hsu, 
+% ``Visual Sensing for Urban Flood Monitoring,'' 
+% Sensors, vol. 15, pp. 20006--20029, Aug. 2015. doi: 10.3390/s150820006.
+
 \bibitem{chen_2013_natural} D. Chen, Z. Liu, L. Wang, M. Dou, J. Chen, and H. Li, 
 ``Natural Disaster Monitoring with Wireless Sensor Networks: A Case Study of Data-Intensive Applications upon Low-Cost Scalable Systems,'' 
 Mobile Networks and Applications, vol. 18, pp. 651--663, Aug. 2013. doi: 10.1007/s11036-013-0456-9.
@@ -433,9 +440,9 @@ Mobile Networks and Applications, vol. 18, pp. 651--663, Aug. 2013. doi: 10.1007
 \bibitem{yellampalli_2021_wireless} S. Yellampalli, Ed., 
 *Wireless Sensor Networks - Design, Deployment and Applications*, IntechOpen, Sep. 2021. doi: 10.5772/intechopen.77917. [Online]. Available: https://www.intechopen.com/books/8086
 
-\bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
-``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
-Journal of Applied Research and Technology, vol. 15, pp. 562--570, Dec. 2017. doi: 10.1016/j.jart.2017.07.004.
+% \bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
+% ``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
+% Journal of Applied Research and Technology, vol. 15, pp. 562--570, Dec. 2017. doi: 10.1016/j.jart.2017.07.004.
 
 \bibitem{nr_2025_ai} W. B. N.R, S. Palarimath, H. Gunasekaran, S. W. Haidar, S. G. S. Subitha, and J. Sarmila, 
 ``AI Modeling and Water Quality Sensing Technique Proffers Water Security: An Open Review,'' 
@@ -445,21 +452,13 @@ in *Proc. 2022 Int. Conf. Electronics and Renewable Systems (ICEARS)*, pp. 1028-
 ``Artificial Intelligence-Based Sensors for Next Generation IoT Applications: A Review,'' 
 IEEE Sensors Journal, vol. 21, pp. 1--1, 2021. doi: 10.1109/jsen.2021.3055618.
 
-\bibitem{teng_2014_soil} Y. Teng, J. Wu, S. Lu, Y. Wang, X. Jiao, and L. Song, 
-``Soil and Soil Environmental Quality Monitoring in China: A Review,'' 
-Environment International, vol. 69, pp. 177--199, Aug. 2014. doi: 10.1016/j.envint.2014.04.014.
+% \bibitem{teng_2014_soil} Y. Teng, J. Wu, S. Lu, Y. Wang, X. Jiao, and L. Song, 
+% ``Soil and Soil Environmental Quality Monitoring in China: A Review,'' 
+% Environment International, vol. 69, pp. 177--199, Aug. 2014. doi: 10.1016/j.envint.2014.04.014.
 
-\bibitem{queiroz_2020_sensors} D. M. de Queiroz, A. L. de F. Coelho, D. S. M. Valente, and J. K. Schueller, 
-``Sensors Applied to Digital Agriculture: A Review,'' 
-Revista Ciência Agronômica, vol. 51, 2020. doi: 10.5935/1806-6690.20200086.
-
-\bibitem{tien_2017_internet} J. M. Tien, 
-``Internet of Things, Real-Time Decision Making, and Artificial Intelligence,'' 
-Annals of Data Science, vol. 4, pp. 149--178, May 2017.
-
-\bibitem{haroun_2021_progress} A. Haroun, X. Le, S. Gao, B. Dong, T. He, Z. Zhang, F. Wen, S. Xu, and C. Lee, 
-``Progress in Micro/Nano Sensors and Nanoenergy for Future AIoT-Based Smart Home Applications,'' 
-Nano Express, vol. 2, p. 022005, Apr. 2021. doi: 10.1088/2632-959x/abf3d4.
+% \bibitem{haroun_2021_progress} A. Haroun, X. Le, S. Gao, B. Dong, T. He, Z. Zhang, F. Wen, S. Xu, and C. Lee, 
+% ``Progress in Micro/Nano Sensors and Nanoenergy for Future AIoT-Based Smart Home Applications,'' 
+% Nano Express, vol. 2, p. 022005, Apr. 2021. doi: 10.1088/2632-959x/abf3d4.
 
 \bibitem{ghosh_2018_artificial} A. Ghosh, D. Chakraborty, and A. Law, 
 'Artificial Intelligence in Internet of Things,' 
@@ -484,6 +483,14 @@ K. Ishibashi, R. Takitoge, D. Manyvone, N. Ono, and S. Yamaguchi,
 "Long battery life IoT sensing by Beat Sensors," 
 in *Proc. 2019 IEEE Int. Conf. on Industrial Cyber Physical Systems (ICPS)*, pp. 430--435, May 2019. doi: 10.1109/icphys.2019.8780159.
 
+\bibitem{queiroz_2020_sensors} D. M. de Queiroz, A. L. de F. Coelho, D. S. M. Valente, and J. K. Schueller, 
+``Sensors Applied to Digital Agriculture: A Review,'' 
+Revista Ciência Agronômica, vol. 51, 2020. doi: 10.5935/1806-6690.20200086.
+
+\bibitem{tien_2017_internet} J. M. Tien, 
+``Internet of Things, Real-Time Decision Making, and Artificial Intelligence,'' 
+Annals of Data Science, vol. 4, pp. 149--178, May 2017.
+
 \bibitem{pimentel_2017_exploring}
 Pimentel, A. D. (2017). Exploring exploration: A tutorial introduction to embedded systems design space exploration. \textit{IEEE Design \& Test}, 1, 77--90. doi:10.1109/MDAT.2016.2626445.
 
@@ -497,11 +504,6 @@ Fournaris, A., Pocero Fraile, L., \& Koufopavlou, O. (2017). Exploiting hardware
  \vspace{12pt}
  \color{red}
 
-IS REF VALID? ------  C. G. J. F. N. Braganc¸a, “An´alise da Influˆencia dos Fenˆomenos El Ni˜no
-e La Ni˜na na Ocorrˆencia de Eventos Clim´aticos de Seca e Enchente,”
-Dissertac¸ ˜ao de Mestrado, 2024.  
 % IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
-
-
 
 \end{document}
