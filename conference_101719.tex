@@ -56,7 +56,7 @@ email address or ORCID}
 \maketitle
 
 \begin{abstract}
-Wireless Sensor Networks (WSNs) are foundational for addressing modern environmental monitoring challenges driven by climate change. This review provides an integrated analysis of the state-of-the-art, examining sensing technologies for water, soil, and air, alongside communication protocols like LoRa/LPWAN. We consolidate advances across sensors, networking, and system-level challenges, including energy efficiency, security, and the integration of the Artificial Intelligence of Things (AIoT). By bridging these multidisciplinary domains, this work serves as a foundational guide for future research and the development of next-generation monitoring systems.
+Wireless Sensor Networks (WSNs) are foundational for addressing modern environmental monitoring challenges driven by climate change. This review provides an integrated analysis of the state-of-the-art, examining sensing technologies for water, soil, and air, alongside communication protocols and best practices. We consolidate advances across sensors, networking, and system-level challenges, including energy efficiency, security, and the integration of the Artificial Intelligence of Things (AIoT). By bridging these multidisciplinary domains, this work serves as a foundational guide for future research and the development of next-generation monitoring systems.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -74,15 +74,15 @@ Although previous reviews have thoroughly examined sensors for soil monitoring, 
 
 This review aims to fill that gap by offering a broad perspective that covers sensor technologies applied to the monitoring of soil, water, and/or air/chemical compounds, along with an analysis of wireless communication technologies, energy efficiency strategies, artificial intelligence and security challenges in WSN deployments for environmental monitoring. The main contribution of this work is to consolidate multidisciplinary advances, highlight underexplored technologies, and provide a comparative analysis to guide future research and applications in the development of environmental monitoring projects.
 
-\section{Sensors and Technologies for Environmental Monitoring} \label{cap:sensors}
+\section{Level and range sensors} \label{cap:sensors}
 
 % Our daily lives are full of sensors constantly collecting data about the environment around us. These sensors can be classified in many different ways. Some relevant categorization examples include: active and passive sensors, where active sensors emit some type of signal to measure a physical quantity, while passive sensors only capture signals that already exist in the environment \cite{javaid_2021_sensors}. Another way to classify sensors is by how they interact with the environment, where contact sensors measure physical quantities directly in contact with the medium, while non-contact sensors measure physical quantities without needing direct contact \cite{javaid_2021_sensors, mohindru_2023_development, wu_2023_a}. Finally, there are many other ways to classify sensors;
 
-In this work, we chose to group sensors according to the type of environment where they are applied, such as water level sensors, air quality sensors, and soil sensors, in order to better guide research in those environments.
+% In this work, we chose to group sensors according to the type of environment where they are applied, such as water level sensors, air quality sensors, and soil sensors, in order to better guide research in those environments.
 
 \subsection{Water Level Sensors for Open Environments} \label{subsec:water_level_sensors}
 
-Simple methods for monitoring water levels, such as marked rulers or staff gauges, are still widely used in natural environments like rivers and lakes. Other common techniques range from basic visual tools to floating or contact-based sensors, including pressure sensors and limnigraphs, which measure the hydrostatic pressure of the water column. A limnigraph sensor was evaluated in the comparative study by \cite{santana_2024_development}, showing accurate readings and resistance to parameters like water turbidity. However, the same study highlights a key limitation: reduced reliability in harsh conditions. In flood scenarios with strong currents and high debris loads, these sensors may become damaged or obstructed. Similarly, float-based systems, where a buoy attached to a rope or cable tracks water height relative to a fixed reference, are simple and effective but can also be affected by floating debris, extreme weather, temperature changes, and corrosion \cite{mohammadrezamasoudimoghaddam_2024_a, santana_2024_development, paul_2020_a, yukawa_2025_an}.
+Simple methods for monitoring water levels, such as marked rulers or staff gauges, are still widely used in natural environments like rivers and lakes. Other common techniques range from basic visual tools to floating or contact-based sensors, including pressure sensors and limnigraphs, which measure the hydrostatic pressure of the water column. A limnigraph sensor was evaluated in the comparative study by \cite{santana_2024_development}, showing accurate readings and resistance to parameters like water turbidity. However, the same study highlights a key limitation: reduced reliability in harsh conditions. In flood scenarios with strong currents and high debris loads, these sensors may become damaged or obstructed.
 
 For non-contact monitoring applications, this review highlights three approaches: ultrasonic sensors, LiDAR sensors, and remote monitoring via satellite imagery.
 
@@ -95,18 +95,19 @@ Another method for monitoring water levels in open environments is the use of sa
 
 \subsection{Water Level Sensors for Controlled Environments}
 
-In controlled environments such as tanks and cisterns, where long-range sensing, debris, or extreme weather are not concerns, simpler and more cost-effective sensor technologies can be used. While the same sensors applied in rivers and lakes may still be suitable, simpler methods like resistive and capacitive sensors are commonly employed. Resistive sensors measure electrical resistance between submerged electrodes and are inexpensive and easy to install, though they can suffer from corrosion and scaling. Capacitive sensors, in contrast, detect changes in capacitance due to varying water levels are also great options \cite{santana_2024_development, mohindru_2023_development}.
+While the same sensors applied in rivers and lakes may still be suitable, simpler methods like resistive and capacitive sensors are commonly employed for monitoring water levels in tanks and cisterns. Resistive sensors measure electrical resistance between submerged electrodes and are inexpensive and easy to install, though they can suffer from corrosion and scaling. Capacitive sensors, in contrast, detect changes in capacitance due to varying water levels are also great options \cite{santana_2024_development, mohindru_2023_development}.
 
 Emerging technologies show promise for these scenarios. For example, surface acoustic wave (SAW) sensors can passively detect water level changes by measuring strain or pressure variations on tank walls, converting them into frequency shifts or response signals \cite{ali_2020_saw, sreejith_2024_modeling}.
 
 Another promising approach involves optical fiber-based sensors. These rely on the hydrostatic principle of Archimedes, where a floating element alters light transmission through a fiber to reflect changes in water level. This principle has been demonstrated in recent developments \cite{ramos_2025_high}. While highly accurate, these systems typically have limited measurement ranges and may involve more complex calibration.
-
 
 % \subsection{Water Level Sensors for Controlled Environments}
 
 % When selecting sensors for water level monitoring in controlled environments like tanks and cisterns, and where long-range sensing is not a concern, we do not need to worry as much about floating debris or extreme weather events such as floods. In these cases, the previously mentioned sensors for rivers and lakes can be used, as well as other simpler methods such as resistive water level sensors, which measure electrical resistance between two electrodes submerged in water. These sensors are inexpensive and easy to install but may be affected by corrosion and mineral deposits \cite{santana_2024_development, mohindru_2023_development}.
 
 % For this category there are also emerging technologies with great potential. One example is passive water level sensors based on acoustic waves. The SAW sensor measures strain or pressure variations in the tank wall caused by water level changes, converting these variations into response signals, as developed by \cite{ali_2020_saw} and \cite{sreejith_2024_modeling}. Another promising technology is optical fiber-based water level sensors, which rely on the hydrostatic principle of Archimedes and use the variation of light transmitted through an optical fiber and a floating element to measure the height of the water column. This principle is demonstrated in the developments by \cite{ramos_2025_high}. These optical fiber sensors are highly accurate but have limited ranges.
+
+\section{Sensor Systems for Detecting Chemicals and Pollutants}
 
 \subsection{Water Quality}
 
@@ -129,11 +130,11 @@ While LoRaWAN and traditional wireless sensor networks (WSNs) are widely adopted
 
 Another innovative method involves the use of unmanned aerial vehicles (UAVs) as mobile data collectors. Caruso et al. \cite{caruso_2021_drone} propose a solution where drones equipped with LoRa radios periodically fly over fields to collect data from distributed ground sensors. This method is particularly suitable for areas lacking fixed infrastructure or where real-time monitoring is not required. The authors present an analytical model to optimize drone path planning, sensor spacing, and flight parameters to ensure reliable data collection. Their model can be adapted to various drone types and communication protocols, offering a flexible and infrastructure-independent alternative for precision agriculture and other remote sensing applications.
 
-\subsection{Air and Chemical Composition Monitoring Review}
+% \subsection{Air and Chemical Composition Monitoring Review}
 
-When thinking of urban environments integrated with IoT under the concept of smart cities, one of the most relevant parameters is air quality, due to its direct impacts on public health, the environment, and the global economy. Atmospheric pollution in urban areas, with non-uniform spatial and temporal distribution, reinforces the need for monitoring systems with high spatiotemporal resolution, something traditional monitoring systems still struggle to provide at scale and with broad data coverage \cite{yi_2015_a}.
+% When thinking of urban environments integrated with IoT under the concept of smart cities, one of the most relevant parameters is air quality, due to its direct impacts on public health, the environment, and the global economy. Atmospheric pollution in urban areas, with non-uniform spatial and temporal distribution, reinforces the need for monitoring systems with high spatiotemporal resolution, something traditional monitoring systems still struggle to provide at scale and with broad data coverage \cite{yi_2015_a}.
 
-In this context, the advancement of sensor technologies, such as MEMS and wireless sensor networks (WSNs), has driven the development of the concept of the Next Generation Air Pollution Monitoring System (TNGAPMS). For this type of application, the most concerning gases are carbon monoxide (CO), nitrogen dioxide (NO$_2$), ground-level ozone (O$_3$), and sulfur dioxide (SO$_2$). Currently, the most used and suitable sensors for monitoring these gases in urban and industrial settings are electrochemical sensors and solid-state (semiconductor) sensors, although there are also other low-cost technologies such as catalytic sensors, NDIR, and PID sensors, which are widely applied in various gas detection contexts \cite{yi_2015_a}.
+% In this context, the advancement of sensor technologies, such as MEMS and wireless sensor networks (WSNs), has driven the development of the concept of the Next Generation Air Pollution Monitoring System (TNGAPMS). For this type of application, the most concerning gases are carbon monoxide (CO), nitrogen dioxide (NO$_2$), ground-level ozone (O$_3$), and sulfur dioxide (SO$_2$). Currently, the most used and suitable sensors for monitoring these gases in urban and industrial settings are electrochemical sensors and solid-state (semiconductor) sensors, although there are also other low-cost technologies such as catalytic sensors, NDIR, and PID sensors, which are widely applied in various gas detection contexts \cite{yi_2015_a}.
 
 \subsection{Chemical Element Detection}
 
@@ -148,13 +149,15 @@ The study by \cite{yi_2015_a} presents a review of air pollution monitoring syst
 
 \section{Challenges and Trends} \label{cap:challenges}
 
-\subsection{Long Range Communication Technologies}
+\subsection{Beat Sensors}
 
 % In this context, Wireless Sensor Networks (WSNs) have established themselves as a promising tool, offering significant advantages in terms of deployment flexibility, quick responsiveness, and cost-benefit compared to traditional monitoring infrastructures. WSNs enable dense spatial sampling and continuous data collection—critical aspects for tracking natural phenomena \cite{chen_2013_natural, pule_2017_wireless}.
 
 % The need for real-time environmental monitoring has increased the demand for data, highlighting the importance of low-power, long-range technologies such as LoRa. These technologies are particularly suitable for applications in remote areas where communication infrastructure is limited or non-existent \cite{pule_2017_wireless, chen_2013_natural}.
 
-A new emerging technology in this field are beat sensors................................................
+Beat sensors represent an innovative approach in the field of IoT, designed specifically to minimize power consumption and cost. Introduced in 2017, these sensors operate by transmitting only ID codes wirelessly; the receiving unit (RX) decodes sensor data based on the time intervals between transmissions, referred to as “beats.” This method eliminates the need for conventional sensing circuitry and enables the use of ultra-low-power, compact, and cost-effective devices suitable for scalable deployments in smart environments. Applications include power monitoring systems such as Power Beat and DC Current Beat sensors, aimed at energy reduction in residential and commercial buildings \cite{ishibashi_2017_beat}.
+
+Subsequent studies have demonstrated the long-term efficiency of beat sensors in energy-critical IoT scenarios. A 2019 evaluation showed that a Beat sensor powered by a CR2032 coin battery could transmit over 3.8 million ID signals, translating to more than seven years of operation, significantly outperforming conventional IoT sensors with intermittent duty cycles \cite{ishibashi_2019_long}. More recently, a 2025 study applied the beat sensing concept to water-level monitoring, proposing a solar-powered system using a \$ 72.5 BoM sensor node with LoRa communication and a quasi-isotropic $\Omega$-antenna. The device operated continuously for 21 days without a battery, achieving a 2 km communication range and consuming less than 100 $\mu$W \cite{dao_2025_lowcost}.
 
 \subsection{Artificial Intelligence with Internet of Things( AIoT )}
 
@@ -162,8 +165,17 @@ The integration of Artificial Intelligence (AI) into Internet of Things (IoT) sy
 
 The work of \cite{mukhopadhyay_2021_artificial} emphasize the growing use of AI-enabled sensors that are context-aware, reliable, and efficient. These sensors reduce energy use, improve response time, and support applications like predictive maintenance and smart routing. In the environmental domain, \cite{ferreira_2023_conception} apply this concept in a wireless sensor node that classifies aquatic pollutants using embedded neural networks and distributed processing. Similarly, \cite{nr_2025_ai} review the use of AI in water quality analysis, discussing its potential to improve detection accuracy and response speed while noting limitations related to data availability and transparency.
 
+% \subsection{Security and Privacy Challenges}
+
+% The growing ubiquity of embedded systems within IoT architectures poses significant security challenges, especially as these systems increasingly handle real-time sensing, processing, and decision-making in sensitive contexts. As shown in recent work, embedded systems now underpin critical applications that directly affect physical environments and human safety, thus making their security, reliability, and resilience essential aspects of system design and operation \cite{koulamas_2018_realtime}. Unlike traditional IT systems, embedded devices often lack robust runtime protections, and their constrained nature frequently leads to security being treated as an afterthought in the design process \cite{pimentel_2017_exploring}. The cascading effect of a single compromised device within an IoT network can jeopardize an entire system, emphasizing the need for comprehensive security strategies at both device and network levels \cite{tien_2017_internet}. Consequently, real-time embedded system architectures must prioritize integrated security mechanisms early in the design flow to reduce the attack surface, especially in edge processing scenarios where data transmission is minimized for both efficiency and security \cite{koulamas_2018_realtime}.
+
+% Beyond software vulnerabilities, hardware-level attacks are becoming a major concern in embedded IoT environments. Recent research has revealed a class of microarchitectural attacks that exploit hardware design flaws, capable of circumventing software-level protections and undermining trust-enhancing technologies \cite{fournaris_2017_exploiting}. These low-level threats are particularly dangerous due to their stealthy nature and the lack of sufficient countermeasures from hardware vendors. Middleware, which connects heterogeneous embedded systems in complex IoT environments, can be an especially vulnerable point if underlying hardware is exposed to such attacks. The need for embedded system manufacturers to proactively provide security patches and adopt secure-by-design principles has never been more urgent. As emphasized in the literature, system architects must be aware of the evolving taxonomy of hardware attacks and incorporate defense mechanisms across the entire stack, from microarchitecture to application layer, to ensure end-to-end IoT security \cite{fournaris_2017_exploiting, pimentel_2017_exploring}.
+
 \subsection{Security and Privacy Challenges}
-Apostolos and koulamas \cite{apostolos_2024_security} discuss the security and privacy challenges in IoT systems. The authors emphasize the importance of addressing these challenges to enable the widespread adoption of IoT technologies.
+
+The widespread integration of embedded systems in IoT architectures introduces critical security challenges, particularly as these systems perform real-time sensing and decision-making in sensitive contexts. Their constrained nature and the tendency to treat security as secondary in design make them vulnerable to attacks \cite{pimentel_2017_exploring}. As embedded systems now support safety-critical applications, ensuring reliability and resilience becomes essential \cite{koulamas_2018_realtime}. A compromised device can threaten the entire IoT network, highlighting the need for robust, integrated security—especially in edge processing, where minimizing data transfer also reduces the attack surface \cite{tien_2017_internet}.
+
+In addition to software risks, hardware-level threats such as microarchitectural attacks are gaining attention. These stealthy exploits bypass traditional protections and compromise trust mechanisms \cite{fournaris_2017_exploiting}. Middleware connecting heterogeneous systems is particularly exposed if hardware is not adequately secured. Manufacturers must adopt secure-by-design principles and deliver timely patches, while architects must understand the full attack taxonomy to implement end-to-end protections \cite{fournaris_2017_exploiting, pimentel_2017_exploring}.
 
 \section{Conclusion and Future Perspectives} \label{cap:conclusion}
 The conclusion is at least two paragraphs long. The first paragraph should summarize the main findings of the paper, while the second paragraph should discuss the implications of these findings and suggest directions for future research.
@@ -419,7 +431,7 @@ Sensors, vol. 15, pp. 20006--20029, Aug. 2015. doi: 10.3390/s150820006.
 Mobile Networks and Applications, vol. 18, pp. 651--663, Aug. 2013. doi: 10.1007/s11036-013-0456-9.
 
 \bibitem{yellampalli_2021_wireless} S. Yellampalli, Ed., 
-*Wireless Sensor Networks – Design, Deployment and Applications*, IntechOpen, Sep. 2021. doi: 10.5772/intechopen.77917. [Online]. Available: https://www.intechopen.com/books/8086
+*Wireless Sensor Networks - Design, Deployment and Applications*, IntechOpen, Sep. 2021. doi: 10.5772/intechopen.77917. [Online]. Available: https://www.intechopen.com/books/8086
 
 \bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
 ``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
@@ -457,6 +469,30 @@ CAAI Transactions on Intelligence Technology, vol. 3, pp. 208--218, Dec. 2018. d
 
 \bibitem{sun_2024_highresolution} C. Sun, C.-S. Tang, F. Vahedifard, Q. Cheng, A. Dong, T.-F. Gao, and B. Shi, "High-resolution monitoring of soil infiltration using distributed fiber optic," J. Hydrol., vol. 640, p. 131691, Jul. 2024, doi: 10.1016/j.jhydrol.2024.131691.
  
+\bibitem{dao_2025_lowcost} 
+M.-H. Dao, K. Ishibashi, T.-A. Nguyen, D.-H. Bui, H. Hirayma, T.-A. Tran, and X.-T. Tran, 
+"Low-cost, high accuracy, and long communication range energy-harvesting Beat Sensor with LoRa and $\Omega$-antenna for water-level monitoring,"
+*IEEE Sensors Journal*, vol. 25, pp. 1--1, Jan. 2025. doi: 10.1109/jsen.2025.3533014.
+
+\bibitem{ishibashi_2017_beat} 
+K. Ishibashi, R. Takitoge, and S. Ishigaki, 
+"Beat sensors IoT technology suitable for energy saving," 
+in *Proc. 2017 7th Int. Conf. on Integrated Circuits, Design, and Verification (ICDV)*, pp. 52--55, Oct. 2017. doi: 10.1109/icdv.2017.8188637.
+
+\bibitem{ishibashi_2019_long} 
+K. Ishibashi, R. Takitoge, D. Manyvone, N. Ono, and S. Yamaguchi, 
+"Long battery life IoT sensing by Beat Sensors," 
+in *Proc. 2019 IEEE Int. Conf. on Industrial Cyber Physical Systems (ICPS)*, pp. 430--435, May 2019. doi: 10.1109/icphys.2019.8780159.
+
+\bibitem{pimentel_2017_exploring}
+Pimentel, A. D. (2017). Exploring exploration: A tutorial introduction to embedded systems design space exploration. \textit{IEEE Design \& Test}, 1, 77--90. doi:10.1109/MDAT.2016.2626445.
+
+\bibitem{koulamas_2018_realtime}
+Koulamas, C., \& Lazarescu, M. (2018). Real-time embedded systems: Present and future. Electronics, 9, 205. doi:10.3390/electronics7090205.
+
+\bibitem{fournaris_2017_exploiting}
+Fournaris, A., Pocero Fraile, L., \& Koufopavlou, O. (2017). Exploiting hardware vulnerabilities to attack embedded system devices: A survey of potent microarchitectural attacks. Electronics,3, 52. doi:10.3390/electronics6030052.
+
 \end{thebibliography}
  \vspace{12pt}
  \color{red}
