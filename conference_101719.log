@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  28 JUN 2025 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  29 JUN 2025 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -282,6 +282,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 
+Underfull \hbox (badness 1558) in paragraph at lines 83--84
+[]\OT1/ptm/m/n/10 Traditional wa-ter level mon-i-tor-ing meth-ods, like staff
+ []
+
+
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
@@ -291,7 +296,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 171.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 149.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -301,24 +306,22 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [3]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 []\OT1/ptm/m/n/8 S. Yel-lam-palli, Ed., *Wire-less Sen-sor Net-works - De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 \OT1/ptm/m/n/8 sign, De-ploy-ment and Ap-pli-ca-tions*, In-te-chOpen, Sep.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 \OT1/ptm/m/n/8 2021. doi: 10.5772/in-te-chopen.77917. [On-line]. Avail-able:
  []
 
 
-
-[4]
-Underfull \hbox (badness 2065) in paragraph at lines 510--511
+Underfull \hbox (badness 2065) in paragraph at lines 307--308
 \OT1/ptm/m/n/8 ploit-ing hard-ware vul-ner-a-bil-i-ties to at-tack em-bed-ded sys-tem de-
  []
 
@@ -335,29 +338,25 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[5
-
-] (./conference_101719.aux)
+[4] (./conference_101719.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4256 strings out of 473200
- 66211 string characters out of 5720279
- 485828 words of memory out of 5000000
- 27470 multiletter control sequences out of 15000+600000
+ 4249 strings out of 473200
+ 66119 string characters out of 5720279
+ 485912 words of memory out of 5000000
+ 27463 multiletter control sequences out of 15000+600000
  598873 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,983b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (5 pages, 124081 bytes).
+Output written on conference_101719.pdf (4 pages, 121412 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
