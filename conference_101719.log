@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  29 JUN 2025 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  3 JUL 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,15 +271,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 
 Underfull \hbox (badness 1558) in paragraph at lines 83--84
@@ -293,7 +284,14 @@ Underfull \hbox (badness 1558) in paragraph at lines 83--84
 
 ]
 
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134.
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 149.
@@ -306,22 +304,22 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [3]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 []\OT1/ptm/m/n/8 S. Yel-lam-palli, Ed., *Wire-less Sen-sor Net-works - De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 \OT1/ptm/m/n/8 sign, De-ploy-ment and Ap-pli-ca-tions*, In-te-chOpen, Sep.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 \OT1/ptm/m/n/8 2021. doi: 10.5772/in-te-chopen.77917. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 309--310
+Underfull \hbox (badness 2065) in paragraph at lines 306--307
 \OT1/ptm/m/n/8 ploit-ing hard-ware vul-ner-a-bil-i-ties to at-tack em-bed-ded sys-tem de-
  []
 
@@ -345,15 +343,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4249 strings out of 473200
- 66119 string characters out of 5720279
- 485912 words of memory out of 5000000
- 27463 multiletter control sequences out of 15000+600000
- 598873 words of font info for 120 fonts, out of 8000000 for 9000
+ 4228 strings out of 473200
+ 65777 string characters out of 5720279
+ 486118 words of memory out of 5000000
+ 27443 multiletter control sequences out of 15000+600000
+ 594453 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,983b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,983b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (4 pages, 121404 bytes).
+Output written on conference_101719.pdf (4 pages, 122520 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
