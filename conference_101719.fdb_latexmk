@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1751899263.07118 "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1751899263.86776 0
+["pdflatex"] 1759533930.13895 "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1759533930.97609 0
   "IEEEtran.cls" 1750813938 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" 1751899262 35415 b925049a50d5c111c9ea87b9512d0578 ""
+  "c:/Users/Klaus/Documents/Projetos/Congresso - IEEE/conference_101719.tex" 1759533928 46815 bbff46a898a44617028db9eb7c77a7cf ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741047798 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1741048570 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1741054685 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -33,6 +33,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1741046495 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1741046495 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1741046495 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1741046495 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1741054685 44729 fea0975e20ec51c992338362f05f1146 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb" 1741054685 44656 0cbca70e0534538582128f6b54593cca ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1741054685 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -75,8 +76,8 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741055342 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1741055527 3352824 127e4e119ca57e98101e0f88a5295980 ""
   "c:/texlive/2024/texmf.cnf" 1741055327 713 e69b156964470283e0530f5060668171 ""
-  "conference_101719.aux" 1751899263 4634 c6d98f34c7592ba48af9f6f9a5ced1e7 "pdflatex"
-  "conference_101719.tex" 1751899262 35415 b925049a50d5c111c9ea87b9512d0578 ""
+  "conference_101719.aux" 1759533930 5754 f221d72d44f07edaa344b40f6a8d4abf "pdflatex"
+  "conference_101719.tex" 1759533928 46815 bbff46a898a44617028db9eb7c77a7cf ""
   (generated)
   "conference_101719.aux"
   "conference_101719.log"
