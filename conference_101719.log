@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  3 OCT 2025 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  3 OCT 2025 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,16 +272,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 90.
- (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+Underfull \hbox (badness 1558) in paragraph at lines 83--84
+[]\OT1/ptm/m/n/10 Traditional wa-ter level mon-i-tor-ing meth-ods, like staff
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 88.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
@@ -303,20 +307,20 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [4]
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 348--349
-\OT1/ptm/m/n/8 ploit-ing hard-ware vul-ner-a-bil-i-ties to at-tack em-bed-ded sys-tem de-
+Underfull \hbox (badness 2096) in paragraph at lines 316--317
+[]\OT1/ptm/m/n/8 F. K. Shaikh and S. Zeadally, "En-ergy Har-vest-ing in Wire-less
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 316--317
+\OT1/ptm/m/it/8 tain-able En-ergy Re-views\OT1/ptm/m/n/8 , vol. 55, pp. 1041--1054, Mar. 2016.
  []
 
 
 
 [5]
-Underfull \hbox (badness 2096) in paragraph at lines 354--355
-[]\OT1/ptm/m/n/8 F. K. Shaikh and S. Zeadally, "En-ergy Har-vest-ing in Wire-less
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 354--355
-\OT1/ptm/m/it/8 tain-able En-ergy Re-views\OT1/ptm/m/n/8 , vol. 55, pp. 1041--1054, Mar. 2016.
+Underfull \hbox (badness 2065) in paragraph at lines 358--359
+\OT1/ptm/m/n/8 ploit-ing hard-ware vul-ner-a-bil-i-ties to at-tack em-bed-ded sys-tem de-
  []
 
 
@@ -343,15 +347,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4236 strings out of 473200
- 65931 string characters out of 5720279
- 489659 words of memory out of 5000000
- 27451 multiletter control sequences out of 15000+600000
+ 4235 strings out of 473200
+ 65903 string characters out of 5720279
+ 489039 words of memory out of 5000000
+ 27450 multiletter control sequences out of 15000+600000
  594453 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1395b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (6 pages, 143686 bytes).
+Output written on conference_101719.pdf (6 pages, 143170 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

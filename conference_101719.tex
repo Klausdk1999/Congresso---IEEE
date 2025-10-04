@@ -77,19 +77,17 @@ When we talk about environmental monitoring, we refer to a wide range of applica
 
 While many reviews focus on specific aspects such as soil sensors or water level measurement, few provide an integrated perspective combining sensing technologies, communication infrastructures, energy efficiency, artificial intelligence, and security. This review addresses that gap by consolidating advances across soil, water, and air monitoring domains to highlight overlooked technologies and guide future research toward scalable, intelligent, and resilient environmental monitoring solutions.
 
-\section{Sensor Technologies} \label{cap:sensors}
+\section{Water Level Sensors} \label{cap:sensors}
 
-\subsection{Water Level Sensors for Open Environments} \label{subsec:water_level_sensors}
-
-\subsubsection{Hydrostatic Pressure Sensors}
+\subsection{Hydrostatic Pressure Sensors}
 Traditional water level monitoring methods, like staff gauges and limnigraphs, remain common in natural environments. Limnigraph sensors operate on hydrostatic pressure principles, where pressure transducers measure the water column height using the relationship $P = \rho gh$, where $\rho$ is water density, $g$ is gravitational acceleration, and $h$ is height. Their reliability drops in flood conditions due to damage or obstruction risks \cite{santana_2024_development}.
 
-\subsubsection{Ultrasonic Level Sensors}
+\subsection{Ultrasonic Level Sensors}
 Ultrasonic sensors estimate distance via acoustic time-of-flight: a short burst (typically 4--10 cycles at 20--200 kHz) is emitted and the echo delay $t$ is converted to distance using $d = \frac{vt}{2}$.
 
-Recent work focused on open-channel flood monitoring demonstrates that low-cost modules can achieve sub-3\% mean error after targeted compensation. MasoudiMoghaddam \textit{et al.}. \cite{mohammadrezamasoudimoghaddam_2024_a} validated a GY-Us42-based design in laboratory and turbulent field conditions (including foamy, aerated surfaces) using: temperature-based sound speed correction, filtering of spurious multipath or splash-induced echoes (median/Hampel), and mechanical alignment to minimize sidewall reflections. Pereira \textit{et al.}. \cite{pereira_2022_evaluation} identified the HC-SR04 as a technically and economically viable option for short spans ($<5$ m) when mounting geometry and obstruction shielding are controlled. Bresnahan \textit{et al.}. \cite{bresnahan_2023_a} emphasized accessibility of the technology, highlighting adoption in education, citizen science, and early-stage research due to low unit cost (US\$5--15) and simple interfacing.
+Recent work focused on open-channel flood monitoring demonstrates that low-cost modules can achieve sub-3\% mean error after targeted compensation. MasoudiMoghaddam \textit{et al.}. \cite{mohammadrezamasoudimoghaddam_2024_a} validated a GY-Us42-based design in laboratory and turbulent field conditions (including foamy, aerated surfaces) using: temperature-based sound speed correction, filtering of spurious multipath or splash-induced echoes (median/Hampel), and mechanical alignment to minimize sidewall reflections. Pereira \textit{et al.} \cite{pereira_2022_evaluation} identified the HC-SR04 as a technically and economically viable option for short spans ($<5$ m) when mounting geometry and obstruction shielding are controlled. Bresnahan \textit{et al.}. At \cite{bresnahan_2023_a}, the authors emphasized accessibility of the technology, highlighting adoption in education, citizen science, and early-stage research due to low unit cost (US\$5--15) and simple interfacing.
 
-\subsubsection{LiDAR-Based Level Measurement}
+\subsection{LiDAR-Based Level Measurement}
 LiDAR (Light Detection and Ranging) systems for hydrometric applications derive distance by measuring the propagation characteristics of emitted laser radiation and its backscattered return from a target surface. Two dominant time-of-flight (TOF) architectures are employed in modern (often solid-state) implementations: (i) pulsed TOF and (ii) amplitude modulated continuous wave (AMCW) TOF \cite{li_2022_a}. In pulsed TOF systems, short optical pulses (typically nanosecond to sub-nanosecond width at 905 nm or 1550 nm) are emitted and the round-trip delay \(\Delta t\) is measured with high-resolution time-to-digital converters (TDCs). The distance is obtained by
 \begin{equation}
     d = \frac{c\,\Delta t}{2}
@@ -104,7 +102,7 @@ Field-oriented studies highlight the performance of low-cost near-infrared LiDAR
 
 From a systems engineering perspective, LiDAR offers non-contact operation, electromagnetic interference immunity, high precision (typical repeatability $<$0.1\% full scale), and enhanced safety for flood-prone or debris-laden channels. Trade-offs include higher capital cost , susceptibility to adverse meteorological factors (dense fog, heavy rain), and thermal drift requiring compensation. Comparative surveys of liquid level technologies position optical (LiDAR and related) approaches as superior in accuracy and maintenance profile relative to many conventional contact methods, while acknowledging cost and environmental vulnerability constraints \cite{singh_2018_review}.
 
-\subsubsection{Satellite-Based Remote Sensing}
+\subsection{Satellite-Based Remote Sensing}
 
 Another method for monitoring water levels in open environments is the use of satellite-based remote sensing. The work \cite{jiang_2024_monitoring} employed a multi-source remote sensing data fusion method via Google Earth Engine to estimate surface water area and water level changes in nine plateau lakes in Yunnan, China, between 2003 and 2022. Their results showed high consistency with in-situ measurements, with deviations under 0.3 meters, and highlighted the influence of climate variability and human activities on lake dynamics.
 
@@ -124,25 +122,24 @@ Another promising approach involves optical fiber-based sensors. Optical fiber-b
 
 \subsection{Water Quality Sensors}
 
-Recent advancements in sensor technologies have significantly enhanced water quality monitoring. The work by \cite{ferreira_2023_conception} presents the development of a wireless sensor network (WSN) node capable of detecting pH, turbidity, and electrical conductivity (EC) sensors and classifying pollutants in aquatic environments using embedded systems, IoT, and machine learning. The system demonstrated promising results in controlled tests with seawater samples containing oil derivatives, offering low power consumption and effective pollutant classification through distributed processing and embedded neural networks. Complementing this work, \cite{nr_2025_ai} review the application of artificial intelligence (AI) in water quality assessment.
+Recent advancements in sensor technologies have significantly enhanced water quality monitoring. The work by Ferreira \textit{et al.} \cite{ferreira_2023_conception} presents the development of a wireless sensor network (WSN) node capable of detecting pH, turbidity, and electrical conductivity (EC) sensors and classifying pollutants in aquatic environments using embedded systems, IoT, and machine learning. The system demonstrated promising results in controlled tests with seawater samples containing oil derivatives, offering low power consumption and effective pollutant classification through distributed processing and embedded neural networks. Complementing this work, in \cite{nr_2025_ai} the authors review the application of artificial intelligence (AI) in water quality assessment.
 
 \subsection{Alternative Technologies for Soil Monitoring}
 
-Batteryless sensing technologies have emerged as promising alternatives for soil sensing in remote or hard to access locations. A NFC-based soil sensor that harvests energy from the NFC reader’s magnetic field was introduced by \cite{boada_2018_batteryless}, enabling measurements of temperature, humidity, and soil moisture without relying on batteries. The system integrates a microcontroller and stores data in NDEF format for later retrieval. 
+Batteryless sensing technologies have emerged as promising alternatives for soil sensing in remote or hard to access locations. A NFC-based soil sensor that harvests energy from the NFC reader’s magnetic field was introduced by Boada \textit{et al.} \cite{boada_2018_batteryless}, enabling measurements of temperature, humidity, and soil moisture without relying on batteries. The system integrates a microcontroller and stores data in NDEF format for later retrieval.
 
 For continuous, high-resolution monitoring applications, Active Heating Optical Frequency Domain Reflectometry (AH-OFDR) provides distributed sensing capabilities along fiber optic cables \cite{sun_2024_highresolution}. This technology combines heated fiber optic cables with OFDR systems, leveraging the principle that soil thermal conductivity varies with moisture content. The system operates by actively heating sections of optical fiber while monitoring temperature changes. Tests validated the method against traditional distributed temperature sensing (DTS) and infrared thermography \cite{sun_2024_highresolution}.
 
 \subsection{Chemical Element Detection and Gas Sensing}
 
-The study by \cite{devkota_2017_saw} investigates SAW sensors for passive detection of gases and chemical vapors in the air, based on the interaction of the compounds with the antenna, which alters the received acoustic signal. SAW sensors are shown to be viable for detecting inorganic gases such as NH$_3$, NO$_2$, SO$_2$, CO, organic vapors such as toluene, ethanol, acetone, and even chemical warfare agents.
+In \cite{devkota_2017_saw}, the authors investigate SAW sensors for passive detection of gases and chemical vapors in the air, based on the interaction of the compounds with the antenna, which alters the received acoustic signal. SAW sensors are shown to be viable for detecting inorganic gases such as NH$_3$, NO$_2$, SO$_2$, CO, organic vapors such as toluene, ethanol, acetone, and even chemical warfare agents.
 
 The study highlights the importance of material stability in extreme environments, the use of antennas for wireless operation, and low energy consumption, pointing to future research directions in sensitive materials, flexible sensors, and multi-element arrays for simultaneous gas monitoring. Advantages include passive wireless operation, low power consumption (no power required for sensing), and rapid response times (seconds). Disadvantages include temperature sensitivity, selectivity limitations, and drift over long-term operation due to substrate saturation.
 
 \subsection{Air Pollution and Quality Monitoring}
+Karagulian \textit{et al.} \cite{karagulian_2019_review} analyzes the performance of low-cost sensors (LCS) for monitoring various air pollutants, including carbon monoxide (CO), nitrogen oxides (NO and NO$_2$), ozone (O$_3$), and particulate matter (PM$_{2.5}$). The review highlights the potential of these sensors to expand spatial coverage in both urban and remote areas and assesses different calibration methods such as MLR, ANN, SVR, and RF, considering factors like relative humidity, which significantly affects particulate measurement.
 
-The work by \cite{karagulian_2019_review} analyzes the performance of low-cost sensors (LCS) for monitoring various air pollutants, including carbon monoxide (CO), nitrogen oxides (NO and NO$_2$), ozone (O$_3$), and particulate matter (PM$_{2.5}$). The review highlights the potential of these sensors to expand spatial coverage in both urban and remote areas and assesses different calibration methods such as MLR, ANN, SVR, and RF, considering factors like relative humidity, which significantly affects particulate measurement.
-
-The study by \cite{yi_2015_a} presents a review of air pollution monitoring systems based on wireless sensor networks (WSNs), classifying them into three main categories: Static Sensor Networks (SSN), Community Sensor Networks (CSN), and Vehicular Sensor Networks (VSN), based on the types of sensor carriers. The analysis shows that many current solutions are already viable in terms of spatiotemporal resolution, cost, energy efficiency, ease of deployment, maintenance, and public data accessibility. However, challenges remain, such as the lack of 3D data acquisition, limitations in active monitoring capability, and the use of uncontrolled or semi-controlled carrier, factors that should be improved in the next generations of air pollution monitoring systems.
+In \cite{yi_2015_a}, the authors present a review of air pollution monitoring systems based on wireless sensor networks (WSNs), classifying them into three main categories: Static Sensor Networks (SSN), Community Sensor Networks (CSN), and Vehicular Sensor Networks (VSN), based on the types of sensor carriers. The analysis shows that many current solutions are already viable in terms of spatiotemporal resolution, cost, energy efficiency, ease of deployment, maintenance, and public data accessibility. However, challenges remain, such as the lack of 3D data acquisition, limitations in active monitoring capability, and the use of uncontrolled or semi-controlled carrier, factors that should be improved in the next generations of air pollution monitoring systems.
 
 \section{Challenges and Trends} \label{cap:challenges}
 
@@ -150,13 +147,13 @@ The study by \cite{yi_2015_a} presents a review of air pollution monitoring syst
 
 The maturation of wireless sensor networks for environmental monitoring has shifted design priorities toward long range, low maintenance, and multi‑year autonomy \cite{pule_2017_wireless}. Low Power Wide Area Network (LPWAN) paradigms, like Sigfox, LoRa/LoRaWAN, and NB‑IoT, compete to service hydrological, soil, and air-quality deployments by offering kilometer-scale coverage at low bitrates \cite{mekki_2019_a}. Comparative analyses show strategic differentiation: Sigfox leverages narrowband frames and strict duty cycle limits to minimize energy per uplink for tiny, infrequent payloads, but imposes downlink and payload size constraints. LoRaWAN provides adaptive data rates and multiple device classes: Class A (uplink‑initiated, lowest energy), optional Class B (scheduled receive slots), and Class C (near‑continuous listening for low bidirectional latency) at elevated power cost. NB‑IoT, integrated with cellular infrastructure, offers improved QoS, managed mobility, and lower latency, yet synchronization overhead, attach procedures, and OFDM/FDMA waveforms drive higher peak and average currents, shortening lifetime versus Sigfox or Class A LoRa for identical reporting intervals \cite{mekki_2019_a}.
 
-Achieving energy neutrality (average harvested power $\geq$ average consumption) under variable illumination and seasonal conditions is central to scaling dense monitoring networks \cite{shaikh_2016_energy}. Energy-efficient operation across these LPWANs tends to maximize sleep ratios: end devices remain in deep sleep the majority of time, waking briefly for sensing, local preprocessing, and transmission. Adaptive sampling and edge feature extraction lower message frequency by transmitting only aggregated statistics, anomalies, or classifications instead of raw series. Architectural critiques emphasize that while such reductions improve battery life, insufficient end‑to‑end encryption and authentication in cloud-forwarding pipelines expose environmental telemetry to spoofing or replay \cite{pule_2017_wireless}.
+Energy efficiency is the primary bottleneck for sustainable environmental WSNs: communication dominates lifetime energy, batteries are expensive to service at scale, and remote nodes must remain operational for years \cite{shaikh_2016_energy}. LPWAN technologies mitigate range–energy trade‑offs but still require minimizing uplink frequency through local feature extraction and adaptive sampling \cite{mekki_2019_a}. Harvesting (solar plus auxiliary micro-sources) plus predictive power budgeting enables energy neutrality (harvested $\geq$ consumed) despite environmental variability \cite{shaikh_2016_energy}.
 
 \subsection{Large Area Monitoring With Vehicles}
 
-Although LoRaWAN and traditional WSNs are common in large agricultural fields, alternative architectures have emerged to overcome infrastructure, energy, and scalability challenges \cite{yellampalli_2021_wireless}. Deng et al. \cite{deng_2020_novel} developed a hybrid system using passive RFID soil sensors and a patrol vehicle for mobile data collection. This approach offers low cost and energy efficiency by leveraging backscatter communication to send environmental data to a central platform.
+Although LoRaWAN and traditional WSNs are common in large agricultural fields, alternative architectures have emerged to overcome infrastructure, energy, and scalability challenges \cite{yellampalli_2021_wireless}. Deng \textit{et al.} \cite{deng_2020_novel} developed a hybrid system using passive RFID soil sensors and a patrol vehicle for mobile data collection. This approach offers low cost and energy efficiency by leveraging backscatter communication to send environmental data to a central platform.
 
-Caruso et al. \cite{caruso_2021_drone} introduced a drone-based system where UAVs with LoRa radios periodically collect data from ground sensors. Ideal for areas without fixed infrastructure or where real-time updates aren't essential, the method includes an adaptable model for optimizing flight paths and sensor layout, supporting various drone types and communication protocols.
+Caruso \textit{et al.} \cite{caruso_2021_drone} introduced a drone-based system where UAVs with LoRa radios periodically collect data from ground sensors. Ideal for areas without fixed infrastructure or where real-time updates aren't essential, the method includes an adaptable model for optimizing flight paths and sensor layout, supporting various drone types and communication protocols.
 
 \subsection{Beat Sensors}
 
@@ -179,6 +176,8 @@ In addition to software risks, hardware-level threats such as microarchitectural
 \section{Conclusion and Future Perspectives} \label{cap:conclusion}
 
 Environmental monitoring technologies are evolving rapidly to meet the challenges posed by climate change, urbanization, and resource management. This review presented the current landscape and emerging directions in sensor development, ranging from conventional water level and air pollution sensors to more advanced, energy-efficient, and batteryless alternatives.
+
+The integration of Power Electronics and Control systems with environmental sensing represents a paradigm shift toward sustainable and energy-efficient monitoring solutions. Low-power design strategies are achieving power consumption below 100 $\mu$W, while energy harvesting technologies enable perpetual operation without battery replacement. These advances are particularly relevant for applications requiring minimal maintenance and environmental impact.
 
 The review also helps identify the most suitable sensing technologies based on context. For water level monitoring, ultrasonic sensors are ideal for short ranges (under 5 meters), while LiDAR offers better performance for longer distances. Satellite-based remote sensing is well-suited for large areas or hard-to-access regions. Soil monitoring benefits from technologies like NFC-powered sensors and optical fiber, while large-scale deployments can rely on mobile data collection using vehicles or UAVs.
 
@@ -241,13 +240,18 @@ Oceanography, vol. 36, 2023. doi: 10.5670/oceanog.2023.101.
 ``A Progress Review on Solid-State LiDAR and Nanophotonics-Based LiDAR Sensors,'' 
 Laser and Photonics Reviews, vol. 16, p. 2100511, Aug. 2022. doi: 10.1002/lpor.202100511.
 
-\bibitem{paul_2020_a} J. D. Paul, W. Buytaert, and N. Sah, 
-``A Technical Evaluation of Lidar-Based Measurement of River Water Levels,'' 
-Water Resources Research, vol. 56, Apr. 2020. doi: 10.1029/2019wr026810.
-% 10
 \bibitem{tamari_2016_flash} S. Tamari and V. Guerrero-Meza, 
 ``Flash Flood Monitoring with an Inclined Lidar Installed at a River Bank: Proof of Concept,'' 
 Remote Sensing, vol. 8, p. 834, Oct. 2016. doi: 10.3390/rs8100834.
+
+% 10
+
+\bibitem{paul_2020_a} J. D. Paul, W. Buytaert, and N. Sah, 
+``A Technical Evaluation of Lidar-Based Measurement of River Water Levels,'' 
+Water Resources Research, vol. 56, Apr. 2020. doi: 10.1029/2019wr026810.
+
+\bibitem{singh_2018_review}
+P. Singh and R. Kumar, "Liquid Level Measurement Technologies: A Comparative Review of Conventional and Optical Methods," \emph{Measurement and Control}, vol. 51, no. 7-8, pp. 302--313, 2018. doi: 10.1177/0020294018788495.
 
 \bibitem{jiang_2024_monitoring} Z. Jiang and L. Hong, 
 ``Monitoring of Surface Water Area and Water Level Changes in Nine Plateau Lakes in Yunnan and Analysis of Influencing Factors,'' 
@@ -263,21 +267,16 @@ doi: 10.1109/igarss53475.2024.10642418.
 ``SAW Sensor Based a Novel Hydrostatic Liquid Level Measurement,'' 
 in *Proc. IECON 2020 - 46th Annual Conf. IEEE Industrial Electronics Society*, pp. 724--729, Oct. 2020. 
 doi: 10.1109/iecon43393.2020.9254540.
-
+% 15
 \bibitem{sreejith_2024_modeling} V. S. Sreejith and H. Zhang, 
 ``Modeling and Testing of a Highly Sensitive Surface Acoustic Wave Pressure Sensor for Liquid Depth Measurements,'' 
 Sensors and Actuators A: Physical, vol. 372, p. 115377, Jul. 2024. doi: 10.1016/j.sna.2024.115377.
-% 15
+
 \bibitem{ramos_2025_high} C. C. Ramos, J. Preizal, X. Hu, C. Caucheteur, G. Woyessa, O. Bang, A. M. Rocha, and R. Oliveira, 
 ``High Resolution Liquid Level Sensor Based on Archimedes’ Law of Buoyancy Using Polymer Optical Fiber Bragg Gratings,'' 
 Measurement, vol. 252, p. 117368, Mar. 2025. Elsevier BV. doi: 10.1016/j.measurement.2025.117368.
 
-\bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
-``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
-Journal of Applied Research and Technology, vol. 15, pp. 562--570, Dec. 2017. doi: 10.1016/j.jart.2017.07.004.
 
-\bibitem{mekki_2019_a}
-K. Mekki, E. Bajic, F. Chaxel, and F. Meyer, "A Comparative Study of LPWAN Technologies for Large-Scale IoT Deployment," \emph{ICT Express}, vol. 5, pp. 1--7, Mar. 2019. doi: 10.1016/j.icte.2017.12.005.
 
 \bibitem{ferreira_2023_conception} Y. Ferreira, C. Silvério, and J. Viana, 
 ``Conception and Design of WSN Sensor Nodes Based on Machine Learning, Embedded Systems and IoT Approaches for Pollutant Detection in Aquatic Environments,'' 
@@ -304,6 +303,17 @@ doi: 10.3390/s17040801.
 Atmosphere, vol. 10, p. 506, Aug. 2019. doi: 10.3390/atmos10090506.
 
 \bibitem{yi_2015_a} W. Yi, K. Lo, T. Mak, K. Leung, Y. Leung, and M. Meng, ``A survey of wireless sensor network based air pollution monitoring systems,'' \emph{Sensors}, vol. 15, pp. 31392--31427, Dec. 2015. doi: 10.3390
+
+\bibitem{pule_2017_wireless} M. Pule, A. Yahya, and J. Chuma, 
+``Wireless Sensor Networks: A Survey on Monitoring Water Quality,'' 
+Journal of Applied Research and Technology, vol. 15, pp. 562--570, Dec. 2017. doi: 10.1016/j.jart.2017.07.004.
+
+
+\bibitem{mekki_2019_a}
+K. Mekki, E. Bajic, F. Chaxel, and F. Meyer, "A Comparative Study of LPWAN Technologies for Large-Scale IoT Deployment," \emph{ICT Express}, vol. 5, pp. 1--7, Mar. 2019. doi: 10.1016/j.icte.2017.12.005.
+
+\bibitem{shaikh_2016_energy}
+F. K. Shaikh and S. Zeadally, "Energy Harvesting in Wireless Sensor Networks: A Comprehensive Review," \emph{Renewable and Sustainable Energy Reviews}, vol. 55, pp. 1041--1054, Mar. 2016. doi:10.1016/j.rser.2015.11.010.
 
 \bibitem{deng_2020_novel} F. Deng, P. Zuo, K. Wen, and X. Wu, 
 ``Novel soil environment monitoring system based on RFID sensor and LoRa,'' 
@@ -347,14 +357,7 @@ Annals of Data Science, vol. 4, pp. 149--178, May 2017.
 \bibitem{fournaris_2017_exploiting}
 Fournaris, A., Pocero Fraile, L., \& Koufopavlou, O. (2017). Exploiting hardware vulnerabilities to attack embedded system devices: A survey of potent microarchitectural attacks. Electronics,3, 52. doi:10.3390/electronics6030052.
 
-\bibitem{singh_2018_review}
-P. Singh and R. Kumar, "Liquid Level Measurement Technologies: A Comparative Review of Conventional and Optical Methods," \emph{Measurement and Control}, vol. 51, no. 7-8, pp. 302--313, 2018. doi: 10.1177/0020294018788495.
-
-\bibitem{shaikh_2016_energy}
-F. K. Shaikh and S. Zeadally, "Energy Harvesting in Wireless Sensor Networks: A Comprehensive Review," \emph{Renewable and Sustainable Energy Reviews}, vol. 55, pp. 1041--1054, Mar. 2016. doi:10.1016/j.rser.2015.11.010.
-
 \end{thebibliography}
-
 
 
 % \bibitem{bragana_2024_anlise} C. G. J. F. N. Bragança, 
